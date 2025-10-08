@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C 0603 1uF 10% 25V X5R"
+		(property "Description" "1uF 25V X5R 0603 JLCPCB Basic Capacitor"
 			(at 0 -22.86 0)
 			(effects
 				(font

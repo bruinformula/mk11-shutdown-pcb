@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.2,
-          "width": 0.9
+          "drill": 4.0,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -618,20 +618,28 @@
       "BSPD-Logic"
     ],
     [
-      "f6f91785-0bae-4519-9214-b8cd207813de",
-      "IMD-Fault-Passthru"
-    ],
-    [
-      "560aa487-b299-41c9-8ff3-68c22ae5ab64",
+      "2f9ac893-2047-438f-af87-5654fc0cb14f",
       "BMS-Fault-Passthru"
     ],
     [
-      "807170b9-5b0e-4147-8391-446f4ac052ac",
+      "6ab0f091-adec-4d1f-a1d7-0124abb21b07",
       "BSPD-Fault-Passthru"
+    ],
+    [
+      "5fbdbc4a-acfc-4802-ab24-0d194c32f3aa",
+      "IMD-Fault-Passthru"
     ],
     [
       "42f0cf19-0e14-403a-bef6-1dfa2279046f",
       "Indicator-Lights"
+    ],
+    [
+      "3b4e2b7a-b875-4df2-afb4-7cd15d570973",
+      "Shutdown-Circuit"
+    ],
+    [
+      "d0efc49a-1e04-47b9-bbf8-a506e96d4b4f",
+      "Buffered-Faults"
     ]
   ],
   "text_variables": {}

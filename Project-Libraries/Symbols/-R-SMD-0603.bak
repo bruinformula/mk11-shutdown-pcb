@@ -2767,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "R 0603 510 1% 100mW 100PPM"
+		(property "Description" "510Ω 0603 JLCPCB Basic Resistor"
 			(at 0 -22.86 0)
 			(effects
 				(font
