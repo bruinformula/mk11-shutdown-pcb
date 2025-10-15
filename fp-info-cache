@@ -1,4 +1,4 @@
-25604622522946012
+25602863335411003
 -Connectors
 348300801
 
@@ -27,13 +27,6 @@ Connector
 0
 24
 24
--LDO
-SOT95P270X145-5N
-OT
-Integrated Circuit
-0
-5
-5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

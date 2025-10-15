@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -24,7 +24,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "-LDO:SOT95P270X145-5N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 -11.43 0)
 			(effects
 				(font

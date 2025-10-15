@@ -2299,6 +2299,99 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "-Mounting-Hole:M3 3.5mm Ø"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MH"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "M3 Mounting Hole 3.5mm Hole Diameter"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "M3 3.5mm Ø_0_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M3 3.5mm Ø_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "-R-SMD-0603:R-0603-0-1%-100mW-1500PPM"
 			(pin_numbers
 				(hide yes)
@@ -4236,6 +4329,19 @@
 		(uuid 681d298a-af5b-4d7d-9c15-1a444e889c56)
 	)
 	(rectangle
+		(start 102.87 190.5)
+		(end 148.59 224.79)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 695435e8-7e80-4859-afa4-6dafcc6a0ca8)
+	)
+	(rectangle
 		(start 262.89 106.68)
 		(end 316.23 156.21)
 		(stroke
@@ -4355,6 +4461,20 @@
 			(justify left bottom)
 		)
 		(uuid "5068498a-ec05-41d1-b7eb-4773fdaaaba2")
+	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 106.68 198.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b72bfbf1-7e34-4ae3-b886-4ed649dd4ed1")
 	)
 	(text "Indicator Lights"
 		(exclude_from_sim no)
@@ -4638,16 +4758,16 @@
 		(uuid "fec5785e-3bec-428b-95e2-46fc95edf204")
 	)
 	(junction
-		(at 45.72 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01b9df26-49eb-4046-aa0f-4bbb4e39e20a")
-	)
-	(junction
 		(at 281.94 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0836ae87-d491-4310-94a5-99ad5447bcf1")
+	)
+	(junction
+		(at 72.39 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b85a562-50f7-4c99-b04a-3168c1161446")
 	)
 	(junction
 		(at 140.97 125.73)
@@ -4656,16 +4776,10 @@
 		(uuid "0c9034e0-c70f-4e03-af28-ed4dcce2282e")
 	)
 	(junction
-		(at 72.39 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16ceb21c-6f70-4b27-b924-38942cc0cf48")
-	)
-	(junction
 		(at 45.72 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27b6c08f-864a-44f7-8c9e-12d9dce7018f")
+		(uuid "24ef7940-cbca-4a4b-91c4-55dc86fad616")
 	)
 	(junction
 		(at 251.46 213.36)
@@ -4788,10 +4902,22 @@
 		(uuid "a5e63f7e-d100-4727-9b8a-5bcc5ff9b5f9")
 	)
 	(junction
+		(at 72.39 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa46bf1d-993a-48c0-9525-8a253739f233")
+	)
+	(junction
 		(at 41.91 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab2739f0-18fb-4339-8e33-6b0736396323")
+	)
+	(junction
+		(at 45.72 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae491905-9c87-4397-a50d-ac403edad746")
 	)
 	(junction
 		(at 304.8 171.45)
@@ -4804,12 +4930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c175c659-3b78-4629-b4d7-944f183527b0")
-	)
-	(junction
-		(at 72.39 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2204577-f425-461c-b62c-e7b0e121d462")
 	)
 	(junction
 		(at 259.08 205.74)
@@ -4864,12 +4984,28 @@
 		(uuid "03255b92-b242-44f3-8557-c6c5816623b6")
 	)
 	(no_connect
+		(at 129.54 217.17)
+		(uuid "07d09d6c-2955-47a5-bbdd-4b6467c2b4a4")
+	)
+	(no_connect
 		(at 45.72 232.41)
 		(uuid "20f3911d-478e-4e3a-b8e2-1667f10fdfbf")
 	)
 	(no_connect
+		(at 114.3 217.17)
+		(uuid "41b23756-1c7e-4f26-87f5-9b98e6bae026")
+	)
+	(no_connect
 		(at 45.72 236.22)
 		(uuid "71ac0e3c-3856-46ac-adfc-4e469a45fa70")
+	)
+	(no_connect
+		(at 137.16 217.17)
+		(uuid "775f5e1d-f497-469f-a05e-ad58951f8563")
+	)
+	(no_connect
+		(at 121.92 217.17)
+		(uuid "bb4bee0c-57a0-4fd7-ae58-1eb17c9267c6")
 	)
 	(wire
 		(pts
@@ -4893,6 +5029,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 259.08) (xy 45.72 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d25ed3-3b29-4d09-8c45-b8cc20727d2e")
+	)
+	(wire
+		(pts
 			(xy 83.82 121.92) (xy 83.82 125.73)
 		)
 		(stroke
@@ -4910,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "0518de49-e0a4-4974-b741-77399d71ae55")
+	)
+	(wire
+		(pts
+			(xy 72.39 259.08) (xy 68.58 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057fad75-8f1b-44a5-a638-02139b49b5d6")
 	)
 	(wire
 		(pts
@@ -4933,13 +5089,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 255.27) (xy 83.82 255.27)
+			(xy 114.3 213.36) (xy 114.3 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bc78d41-0c28-41b9-af9c-3722ce067fc2")
+		(uuid "0bf8e9a2-0870-4021-815d-6826f9d700f4")
 	)
 	(wire
 		(pts
@@ -4963,13 +5119,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 259.08) (xy 49.53 259.08)
+			(xy 45.72 255.27) (xy 34.29 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12fb1604-7721-4f39-ad46-9f1f13f469a4")
+		(uuid "128c080e-9bac-4f61-9fb4-f902e7f70054")
+	)
+	(wire
+		(pts
+			(xy 137.16 213.36) (xy 137.16 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bc3568-ac8a-4a6e-bcee-f924e2f98c3d")
 	)
 	(wire
 		(pts
@@ -5043,16 +5209,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 259.08) (xy 72.39 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b2a1a2-5395-49af-b4f1-22b056d42167")
-	)
-	(wire
-		(pts
 			(xy 392.43 125.73) (xy 377.19 125.73)
 		)
 		(stroke
@@ -5060,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "18dd45e1-da81-4614-a767-e7da9eb5af01")
-	)
-	(wire
-		(pts
-			(xy 68.58 259.08) (xy 72.39 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197b5566-ca1c-49aa-9c90-8d4a5cbf9b0c")
 	)
 	(wire
 		(pts
@@ -5100,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "1dee75c6-12a9-4a38-9718-d4773890bc3e")
-	)
-	(wire
-		(pts
-			(xy 45.72 251.46) (xy 45.72 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e364142-65af-43d0-8b14-382b0f36a181")
 	)
 	(wire
 		(pts
@@ -5163,6 +5299,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 262.89) (xy 72.39 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27baee30-7b7e-4386-b054-638d2f931420")
+	)
+	(wire
+		(pts
 			(xy 68.58 209.55) (xy 91.44 209.55)
 		)
 		(stroke
@@ -5210,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "2ee47235-fcad-4232-899d-e4db93f3cb8c")
+	)
+	(wire
+		(pts
+			(xy 45.72 262.89) (xy 45.72 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f49cd91-43dd-49e7-af95-4416a6636bc2")
 	)
 	(wire
 		(pts
@@ -5413,6 +5569,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 255.27) (xy 68.58 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a2a7d8-8ea3-4798-aa3f-66434bd53451")
+	)
+	(wire
+		(pts
 			(xy 201.93 156.21) (xy 201.93 163.83)
 		)
 		(stroke
@@ -5460,16 +5626,6 @@
 			(type default)
 		)
 		(uuid "5e70bed7-cf5c-4f2c-adb1-d27715a5c192")
-	)
-	(wire
-		(pts
-			(xy 45.72 262.89) (xy 45.72 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637495ee-77f9-471b-88fb-0c443ee3c63b")
 	)
 	(wire
 		(pts
@@ -5540,6 +5696,16 @@
 			(type default)
 		)
 		(uuid "6c3502b5-8e62-4c2f-be04-1d547539109e")
+	)
+	(wire
+		(pts
+			(xy 72.39 255.27) (xy 72.39 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb1c481-093f-41c8-8df5-8fd342758f22")
 	)
 	(wire
 		(pts
@@ -5633,13 +5799,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 262.89) (xy 45.72 262.89)
+			(xy 129.54 213.36) (xy 129.54 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d4574b1-d460-447d-91a0-40723f1d1b00")
+		(uuid "905ce631-fd28-4ec5-99a9-ffeb2dc1bdda")
 	)
 	(wire
 		(pts
@@ -5663,13 +5829,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 255.27) (xy 72.39 255.27)
+			(xy 49.53 255.27) (xy 45.72 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "970776a7-2e26-44f1-8798-c87b01b3f1f0")
+		(uuid "96101e94-cca0-46cf-a65e-ea4602483497")
 	)
 	(wire
 		(pts
@@ -5693,13 +5859,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 262.89) (xy 72.39 259.08)
+			(xy 72.39 251.46) (xy 72.39 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "982d72df-b052-49e0-bde5-a43f886f6d58")
+		(uuid "9adc677f-10b4-4270-9f33-e7e15bf22772")
 	)
 	(wire
 		(pts
@@ -5723,16 +5889,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 255.27) (xy 49.53 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fbeb626-5397-458b-9545-42daccfcd456")
-	)
-	(wire
-		(pts
 			(xy 133.35 133.35) (xy 133.35 148.59)
 		)
 		(stroke
@@ -5750,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "a8c9f5cd-3325-4486-9c86-9a00a84a302f")
+	)
+	(wire
+		(pts
+			(xy 49.53 259.08) (xy 45.72 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe2a6d5-c211-46db-a100-3e34d8070ceb")
 	)
 	(wire
 		(pts
@@ -5810,6 +5976,16 @@
 			(type default)
 		)
 		(uuid "b4df38d4-95ea-4506-95d1-fa632fe987cc")
+	)
+	(wire
+		(pts
+			(xy 68.58 262.89) (xy 72.39 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52b7452-f52b-42c8-974f-25354dea03fb")
 	)
 	(wire
 		(pts
@@ -5993,6 +6169,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 213.36) (xy 121.92 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c735e07e-6237-4284-9d92-03774c674290")
+	)
+	(wire
+		(pts
 			(xy 304.8 171.45) (xy 320.04 171.45)
 		)
 		(stroke
@@ -6000,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "c7bd04fc-5009-4e65-94e7-a5bde6d5d59b")
+	)
+	(wire
+		(pts
+			(xy 49.53 262.89) (xy 45.72 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf08f624-077b-4941-99f9-c922a32d4641")
 	)
 	(wire
 		(pts
@@ -6123,16 +6319,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 255.27) (xy 45.72 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaff116b-a71d-4bd6-8b15-74f01dfee19b")
-	)
-	(wire
-		(pts
 			(xy 217.17 163.83) (xy 220.98 163.83)
 		)
 		(stroke
@@ -6150,16 +6336,6 @@
 			(type default)
 		)
 		(uuid "ee521892-d427-4c20-94cc-1a1a24032bef")
-	)
-	(wire
-		(pts
-			(xy 68.58 262.89) (xy 72.39 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efcbbe71-841c-4b05-b3fc-988402156a3e")
 	)
 	(wire
 		(pts
@@ -6631,6 +6807,16 @@
 		)
 		(uuid "c028dbfd-2132-4fbe-be83-c51f2787c887")
 	)
+	(label "SD-POWER"
+		(at 34.29 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd2deb15-3a0b-4f83-815c-91118bc8c955")
+	)
 	(label "IMD-FAULT-VCU"
 		(at 213.36 133.35 180)
 		(effects
@@ -6701,16 +6887,6 @@
 		)
 		(uuid "e6805a36-a7c7-41d8-9def-3553dfe6500c")
 	)
-	(label "SD-POWER"
-		(at 83.82 255.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee665f58-5e97-46b9-a58d-8b3c577c03f0")
-	)
 	(label "IMD-FAULT-VCU"
 		(at 106.68 64.77 0)
 		(effects
@@ -6740,6 +6916,75 @@
 			(justify left bottom)
 		)
 		(uuid "f25a3353-c5b7-4db9-a924-66bbf367ad45")
+	)
+	(symbol
+		(lib_id "-Mounting-Hole:M3 3.5mm Ø")
+		(at 129.54 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02536b6c-72a4-49b3-b2bf-72acf88699fb")
+		(property "Reference" "MH3"
+			(at 127.5801 206.0429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 129.54 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole 3.5mm Hole Diameter"
+			(at 129.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58ddcf3b-9035-4294-aabb-4fd2d69a0b28")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "MH3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "-C-Ceramic-0603:C-0603-470nF-10%-25V-X7R")
@@ -7183,7 +7428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0761166f-b9a5-49b0-9337-7d77bd960809")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 133.35 170.18 0)
 			(effects
 				(font
@@ -7233,7 +7478,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0965d1e6-a399-44da-a032-2fdcb07b252e")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 299.6468 182.5511 0)
 			(effects
 				(font
@@ -7365,7 +7610,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7380,7 +7625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cbf33c1-3373-43e2-ad5d-686d799237a7")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 214.0398 166.803 0)
 			(effects
 				(font
@@ -7519,7 +7764,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11111a59-9b33-4553-9823-40440ad5d4cd")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 189.7313 69.2826 90)
 			(effects
 				(font
@@ -7651,7 +7896,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "121d303c-7ece-47b2-ae4f-accda2fb1090")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 266.703 193.1341 0)
 			(effects
 				(font
@@ -7805,7 +8050,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7820,7 +8065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14e310d0-dd83-47f8-b6d0-3ccfe2eaa48f")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 33.6706 73.8226 90)
 			(effects
 				(font
@@ -7964,7 +8209,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7979,7 +8224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a246946-ef19-4743-82e8-1ec0073d6957")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 66.3927 68.58 90)
 			(effects
 				(font
@@ -8123,7 +8368,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8139,7 +8384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b52b46d-dcc4-4a8f-9b19-651ad308ad0a")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 134.4359 148.9753 0)
 			(effects
 				(font
@@ -8259,7 +8504,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8403,7 +8648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cdf2023-074e-4203-99b9-8840c7cae78b")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR023"
 			(at 45.72 273.05 0)
 			(effects
 				(font
@@ -8453,7 +8698,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR0103")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8469,7 +8714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f25d60b-9170-4560-8011-eaa66b59bca5")
-		(property "Reference" "Q4"
+		(property "Reference" "Q7"
 			(at 252.73 210.82 90)
 			(effects
 				(font
@@ -8589,7 +8834,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -8733,7 +8978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fa90f5a-81d8-40ad-a6cb-994361894eed")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 160.02 181.61 0)
 			(effects
 				(font
@@ -8783,7 +9028,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8798,7 +9043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "312bd68c-776b-4181-a825-b62b86545e20")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 204.9713 69.2826 90)
 			(effects
 				(font
@@ -8915,7 +9160,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8930,7 +9175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "320b55ed-479c-412e-91b8-d8dfdbaac2bd")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 176.868 55.5328 90)
 			(effects
 				(font
@@ -9074,7 +9319,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9090,7 +9335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32dde71f-32ae-441b-ac7f-54459bbbe031")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -9140,7 +9385,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9155,7 +9400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33437336-c75e-43f1-80a0-b25bfa49f6fb")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 321.7851 128.608 90)
 			(effects
 				(font
@@ -9299,7 +9544,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R18")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9315,7 +9560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33c0426f-6b8b-49b0-abb7-ea38e372d5aa")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 201.93 53.34 0)
 			(effects
 				(font
@@ -9365,7 +9610,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9514,7 +9759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38625c10-7c48-4f43-8a4b-424eee39f06d")
-		(property "Reference" "R16"
+		(property "Reference" "R10"
 			(at 283.6394 138.1833 90)
 			(effects
 				(font
@@ -9658,7 +9903,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9673,7 +9918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39ad3291-7bf6-48a6-bd8e-a2171b865c5f")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 188.298 55.5328 90)
 			(effects
 				(font
@@ -9817,7 +10062,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9832,7 +10077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b1b2fa3-6327-4789-a5bf-6170467e9bf9")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 272.2094 138.1833 90)
 			(effects
 				(font
@@ -9976,7 +10221,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9991,7 +10236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d6b7e7d-138e-43a5-ab77-0bcb6e7a36a3")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 258.954 223.7647 0)
 			(effects
 				(font
@@ -10130,7 +10375,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10145,7 +10390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "412c67e1-ca68-43f5-8151-59b018c24897")
-		(property "Reference" "D10"
+		(property "Reference" "D6"
 			(at 281.8897 120.2525 90)
 			(effects
 				(font
@@ -10260,7 +10505,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D10")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10276,7 +10521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c3482a2-714d-4c7a-8cba-40dbf5662e5d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 243.84 205.74 0)
 			(effects
 				(font
@@ -10326,7 +10571,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "581a2adb-6c1f-499e-88c6-bbe04a7e719a")
-		(property "Reference" "Q7"
+		(property "Reference" "Q6"
 			(at 298.3403 164.2046 0)
 			(effects
 				(font
@@ -10723,7 +10968,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "Q7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -10738,7 +10983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5989d465-1c5e-4e53-be7a-8b3b86e1ff32")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 216.4013 69.2826 90)
 			(effects
 				(font
@@ -10855,7 +11100,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10871,7 +11116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c77cfc6-953e-4a66-b4f4-e58ad4d2219d")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 59.055 246.38 0)
 			(effects
 				(font
@@ -11004,7 +11249,7 @@
 		(instances
 			(project ""
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11078,16 +11323,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 45.72 251.46 0)
-		(mirror y)
+		(at 72.39 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5fc5d054-5c6a-4728-9929-cbb4d33e727a")
-		(property "Reference" "#PWR0102"
-			(at 45.72 255.27 0)
+		(property "Reference" "#PWR022"
+			(at 72.39 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,7 +11340,7 @@
 			)
 		)
 		(property "Value" "BATT+"
-			(at 46.2473 247.3415 0)
+			(at 71.8627 247.3415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 251.46 0)
+			(at 72.39 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 251.46 0)
+			(at 72.39 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 45.72 251.46 0)
+			(at 72.39 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11380,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR0102")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11152,7 +11396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60249f5f-c07e-4541-a32e-7d015f8e7f2b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 26.67 64.77 0)
 			(effects
 				(font
@@ -11202,7 +11446,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11217,7 +11461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68e72f59-4c01-44b4-8d7d-84dd4682c034")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 194.31 170.18 0)
 			(effects
 				(font
@@ -11267,7 +11511,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11282,7 +11526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ebe0901-18fa-48b7-bab6-ff8b22cee50f")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 153.0595 166.5021 0)
 			(effects
 				(font
@@ -11421,7 +11665,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f29b17c-39a6-4e5e-9f2f-4b96b1dc898a")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 197.3097 166.8499 0)
 			(effects
 				(font
@@ -11553,7 +11797,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11568,7 +11812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71cde4e5-d59f-4533-85a7-b35dbbaa375d")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 231.9769 208.3914 90)
 			(effects
 				(font
@@ -11685,7 +11929,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D8")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -11700,7 +11944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "745f1ffb-2e65-4e31-be99-28bdd32f178b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR017"
 			(at 297.18 189.23 0)
 			(effects
 				(font
@@ -11750,7 +11994,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR024")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11765,7 +12009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c9ef8d8-23dd-4e48-bed3-cf10125a2e40")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -11815,7 +12059,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11831,7 +12075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d2caf9a-eb66-4ef9-b76b-7db27e0fd403")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR01"
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -11881,7 +12125,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR012")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11897,7 +12141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f101d12-9664-4774-9831-f08d1f2d1198")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 195.3959 148.9753 0)
 			(effects
 				(font
@@ -12017,7 +12261,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -12032,7 +12276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8074df0e-4ab6-4ec1-b774-af7c94946a65")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 293.2274 208.1336 0)
 			(effects
 				(font
@@ -12171,7 +12415,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12186,7 +12430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82e6cf35-3e3f-4957-b4ed-1da5540c8ea8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 285.75 242.57 0)
 			(effects
 				(font
@@ -12236,7 +12480,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12251,7 +12495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86e0c30e-6f16-434a-826e-bab1f0256802")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 266.7 189.23 0)
 			(effects
 				(font
@@ -12301,7 +12545,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12316,7 +12560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90739dfd-4078-4e84-94d1-d9236e05db3b")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 214.968 55.5328 90)
 			(effects
 				(font
@@ -12460,7 +12704,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12475,7 +12719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f643ae-8158-41e6-9905-4930991f9b7d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 38.1 139.7 0)
 			(effects
 				(font
@@ -12526,7 +12770,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12541,7 +12785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9819ca30-45b1-42f5-b65b-4662eae58503")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 222.8895 166.2694 90)
 			(effects
 				(font
@@ -12685,7 +12929,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12700,7 +12944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "993d4619-5348-4925-b0f5-0cc4365254f0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 38.1 162.56 0)
 			(effects
 				(font
@@ -12750,7 +12994,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12766,7 +13010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f43afe-a8ff-4b67-9b03-a7b9f5252221")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 59.055 193.04 0)
 			(effects
 				(font
@@ -12935,7 +13179,7 @@
 		(instances
 			(project ""
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12950,7 +13194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a78b8146-b2d3-43d9-81ba-a17d0f9503df")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 51.7128 67.4374 90)
 			(effects
 				(font
@@ -13067,7 +13311,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13250,7 +13494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b592b6a1-5fd2-4042-99ea-64b600081c4d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 41.91 90.17 0)
 			(effects
 				(font
@@ -13300,7 +13544,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13445,7 +13689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b759899c-55c1-40f6-9fd0-aa810bbbcb2d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR010"
 			(at 270.51 137.16 0)
 			(effects
 				(font
@@ -13495,7 +13739,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13510,7 +13754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b91a8ede-6c2d-41f5-a23b-da296834e5b5")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 136.4228 166.8733 0)
 			(effects
 				(font
@@ -13627,7 +13871,76 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D6")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Mounting-Hole:M3 3.5mm Ø")
+		(at 114.3 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93a1c9b-4dcf-408f-9856-dcd6d78ee558")
+		(property "Reference" "MH1"
+			(at 112.3401 206.0429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 114.3 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole 3.5mm Hole Diameter"
+			(at 114.3 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ae808c-be07-43e2-bb27-f1a898979f73")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "MH1")
 					(unit 1)
 				)
 			)
@@ -13642,7 +13955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c49781-4f66-4fc6-a2cb-b62f62f41109")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 251.3447 185.0508 90)
 			(effects
 				(font
@@ -13786,7 +14099,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13801,7 +14114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5e824be-b0c9-4048-8037-2f9ae5dd66e0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 274.32 212.09 0)
 			(effects
 				(font
@@ -13851,7 +14164,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13866,7 +14179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbdb8f6e-9aec-4511-9c99-f24956b3bc2f")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 203.538 55.5328 90)
 			(effects
 				(font
@@ -14010,7 +14323,76 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R6")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Mounting-Hole:M3 3.5mm Ø")
+		(at 137.16 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3c5422-8431-4041-99cf-a45289fab2a8")
+		(property "Reference" "MH4"
+			(at 135.2001 206.0429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 137.16 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole 3.5mm Hole Diameter"
+			(at 137.16 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c98e23-b989-4474-8f6e-84bd4344572f")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -14026,7 +14408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d05890db-f012-47f4-9bc2-847a74c6088f")
-		(property "Reference" "Q6"
+		(property "Reference" "Q2"
 			(at 293.0059 127.7141 90)
 			(effects
 				(font
@@ -14146,7 +14528,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14161,7 +14543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1c668de-6437-4d7a-89b6-d52b775df45d")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 161.7651 166.708 90)
 			(effects
 				(font
@@ -14305,7 +14687,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14320,7 +14702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c1642f-a2f1-4aa8-bf4e-a2d14a1579f0")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR024"
 			(at 72.39 273.05 0)
 			(effects
 				(font
@@ -14370,7 +14752,76 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR0104")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Mounting-Hole:M3 3.5mm Ø")
+		(at 121.92 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da6e591e-cbaa-489f-b838-c2d6868697da")
+		(property "Reference" "MH2"
+			(at 119.9601 206.0429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 121.92 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole 3.5mm Hole Diameter"
+			(at 121.92 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ed0e918-2978-43a5-b24b-768eb652d094")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "MH2")
 					(unit 1)
 				)
 			)
@@ -14385,7 +14836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e37b2a76-9831-42f5-9a15-65914b6cc2dd")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 178.3013 69.2826 90)
 			(effects
 				(font
@@ -14502,7 +14953,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14517,7 +14968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9c8fde3-577d-4980-bf6f-0ab972fdc9d7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 220.98 181.61 0)
 			(effects
 				(font
@@ -14567,7 +15018,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14582,7 +15033,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "eb884c50-774a-43cb-a8ac-a9ebf055fe91")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 72.4448 52.0334 0)
 			(effects
 				(font
@@ -14721,7 +15172,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14737,7 +15188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f25411fc-3952-4f81-affc-e56f649c1cec")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 304.8 220.98 0)
 			(effects
 				(font
@@ -14787,7 +15238,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14802,7 +15253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f37504e8-b65b-4fb9-8c3a-0dce160a9ecb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -14852,7 +15303,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

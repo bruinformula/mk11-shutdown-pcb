@@ -14,4 +14,5 @@
   (lib (name "-MOSFET-N-Channel")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-MOSFET-N-Channel.kicad_sym")(options "")(descr ""))
   (lib (name "-Connectors")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "-Operational-Amplifiers")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-Operational-Amplifiers.kicad_sym")(options "")(descr ""))
+  (lib (name "-Mounting-Hole")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-Mounting-Hole.kicad_sym")(options "")(descr ""))
 )

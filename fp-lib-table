@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "-LDO")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Footprints/-LDO.pretty")(options "")(descr ""))
   (lib (name "-Connectors")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Footprints/-Connectors.pretty")(options "")(descr ""))
 )
