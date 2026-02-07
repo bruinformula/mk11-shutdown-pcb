@@ -4221,7 +4221,7 @@
 		)
 		(uuid "57fae7bb-b15b-41f7-98dc-0bd5f4ec243d")
 	)
-	(text_box "NOTE:\nBSPD-FAULT-VCU\n0V: No Fault\n12V: Fault"
+	(text_box "NOTE:\nBSPD-FAULT-VCU\n12V: No Fault\n0V: Fault"
 		(exclude_from_sim no)
 		(at 49.53 133.35 0)
 		(size 19.05 7.62)

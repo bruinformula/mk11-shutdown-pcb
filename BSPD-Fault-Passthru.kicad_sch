@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f9035974-6519-4ae8-bd7a-21f60c88a8bc")
+	(uuid "409c94ae-0e9f-49b0-8846-f52c5f6de1c3")
 	(paper "A3")
 	(lib_symbols
 		(symbol "-Diodes-LED:NCD0805R1"
