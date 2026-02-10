@@ -1077,6 +1077,75 @@
 		)
 		(uuid "95665da5-4699-4fd6-ba8e-e48dbcbe3ad6")
 	)
+	(text_box "NOTE: When IMD-FAULT-VCU is 12V, there is a fault, when it is 0V there is no fault."
+		(exclude_from_sim no)
+		(at 163.83 118.11 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "180692fe-0fd3-4197-9315-1a563336b059")
+	)
+	(text_box "NOTE: When TSSI-STATUS is 12V, there is no fault, and when it is 0V, there is a fault.\n\nWhen either IMD-FAULT-VCU and/or BMS-FAULT-VCU are 12V, then there is a fault, so TSSI-STATUS gets pulled down to 0V."
+		(exclude_from_sim no)
+		(at 220.98 160.02 0)
+		(size 34.29 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "a86d67c8-f641-41a6-ba18-8f4e762392e6")
+	)
+	(text_box "NOTE: When BMS-FAULT-VCU is 12V, there is a fault, when it is 0V there is no fault."
+		(exclude_from_sim no)
+		(at 163.83 137.16 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "b4e8129b-26b5-4754-a5c4-323c840fec26")
+	)
 	(junction
 		(at 209.55 156.21)
 		(diameter 0)
