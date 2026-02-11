@@ -14381,16 +14381,6 @@
 				(justify left)
 			)
 		)
-		(pin "BMS-FAULT-VCU" input
-			(at 137.16 255.27 180)
-			(uuid "af7fd75a-3c4b-4d0f-a48c-b9eb8bf1c5a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IMD-FAULT-VCU-BUF" input
 			(at 167.64 266.7 0)
 			(uuid "db98bc5f-f59d-4124-b249-f66b64e67411")
@@ -14409,6 +14399,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BMS-FAULT" input
+			(at 137.16 255.27 180)
+			(uuid "ee3de351-06e0-4809-a5de-ff5ad2890c0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

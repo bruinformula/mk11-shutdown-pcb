@@ -1066,7 +1066,7 @@
 		)
 		(uuid "e253a747-a330-4bcb-922e-2c94159922d2")
 	)
-	(hierarchical_label "BMS-FAULT-VCU"
+	(hierarchical_label "BMS-FAULT"
 		(shape input)
 		(at 194.31 114.3 180)
 		(effects
