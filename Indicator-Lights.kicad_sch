@@ -1298,7 +1298,7 @@
 		(uuid "3d8a04b0-d46c-442f-bbe7-5537671e42a4")
 	)
 	(hierarchical_label "TSSI-STATUS"
-		(shape input)
+		(shape output)
 		(at 220.98 156.21 0)
 		(effects
 			(font

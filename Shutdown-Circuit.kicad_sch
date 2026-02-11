@@ -2949,7 +2949,7 @@
 		(uuid "53358c5c-01eb-432d-a820-f8e8ce293396")
 	)
 	(hierarchical_label "SD-POWER"
-		(shape input)
+		(shape output)
 		(at 327.66 129.54 0)
 		(effects
 			(font

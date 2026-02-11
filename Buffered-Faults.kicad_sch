@@ -1034,7 +1034,7 @@
 		(uuid "fe6b56f7-52ee-4faf-a55c-371d66a37e89")
 	)
 	(hierarchical_label "IMD-FAULT-VCU-BUF"
-		(shape input)
+		(shape output)
 		(at 224.79 148.59 0)
 		(effects
 			(font
@@ -1045,7 +1045,7 @@
 		(uuid "2188c109-31a8-42ad-ad91-95b56b2398f2")
 	)
 	(hierarchical_label "BMS-FAULT-VCU-BUF"
-		(shape input)
+		(shape output)
 		(at 224.79 118.11 0)
 		(effects
 			(font
