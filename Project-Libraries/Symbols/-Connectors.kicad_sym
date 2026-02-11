@@ -24,7 +24,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "-Connectors:0194270049"
+		(property "Footprint" "-Connectors:0194270031"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/194/19427/194270031_sd.pdf?inline"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Panel Mount, Through Hole, Right Angle 10 position 0.230\" (5.84mm)"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.digikey.com/en/products/detail/molex/0194270031/863312?s=N4IgTCBcDaIIwE4AsYDsAGdBmOIC6AvkA"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -74,7 +74,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0194270031"
 			(at 0 -30.48 0)
 			(effects
 				(font
@@ -84,7 +84,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
+		(property "Digikey P/N" "23-0194270031-ND"
 			(at 0 -34.29 0)
 			(effects
 				(font
@@ -94,7 +94,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" ""
+		(property "Mouser P/N" "538-19427-0031"
 			(at 0 -38.1 0)
 			(effects
 				(font
@@ -104,7 +104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C17317250"
 			(at 0 -41.91 0)
 			(effects
 				(font
