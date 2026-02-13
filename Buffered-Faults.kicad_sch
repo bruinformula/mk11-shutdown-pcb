@@ -1078,72 +1078,6 @@
 		(uuid "ee07e966-dc16-4ac7-abad-dfb66419e0ec")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 194.31 175.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03ca9a10-d4a3-40c7-b8b6-afd2eff10949")
-		(property "Reference" "#PWR063"
-			(at 194.31 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 194.31 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 194.31 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a60d790a-bc10-4b1f-a5a1-c5e4f0721bd6")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/d0efc49a-1e04-47b9-bbf8-a506e96d4b4f"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-Operational-Amplifiers:TSB712AIDT")
 		(at 201.93 182.88 0)
 		(unit 3)
@@ -1610,6 +1544,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 194.31 175.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "876127fe-84ce-4fe0-9974-726ffa5effd8")
+		(property "Reference" "#PWR068"
+			(at 194.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT+PROT"
+			(at 194.31 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 194.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d4bcd7-6775-42d4-a41d-be5355b99caf")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/d0efc49a-1e04-47b9-bbf8-a506e96d4b4f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 194.31 190.5 0)
 		(unit 1)
@@ -1618,7 +1618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9176e199-8a35-4e59-8d0f-f6c182bf66bf")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 194.31 196.85 0)
 			(effects
 				(font
@@ -1668,7 +1668,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/d0efc49a-1e04-47b9-bbf8-a506e96d4b4f"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)

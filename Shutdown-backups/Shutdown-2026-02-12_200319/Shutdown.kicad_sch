@@ -5262,7 +5262,7 @@
 	)
 	(rectangle
 		(start 99.06 34.29)
-		(end 392.43 133.35)
+		(end 405.13 133.35)
 		(stroke
 			(width 0.508)
 			(type dot)
@@ -5648,6 +5648,12 @@
 		(uuid "0c9034e0-c70f-4e03-af28-ed4dcce2282e")
 	)
 	(junction
+		(at 274.32 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc547b2-4748-46a4-9f6d-9803d0478e3c")
+	)
+	(junction
 		(at 256.54 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5660,6 +5666,12 @@
 		(uuid "3268d5f2-896d-41b1-abda-efbaae8baa4b")
 	)
 	(junction
+		(at 322.58 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38b4109b-e513-4077-960e-47bb832bca5c")
+	)
+	(junction
 		(at 57.15 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5670,6 +5682,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46746854-16fa-4fd4-8c11-be4d89338510")
+	)
+	(junction
+		(at 266.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4923e40d-3797-4ea4-80ce-231d0ce44ab1")
 	)
 	(junction
 		(at 219.71 232.41)
@@ -5756,6 +5774,12 @@
 		(uuid "8669cf2e-b2ed-4afc-bdfa-77a6193e74cb")
 	)
 	(junction
+		(at 378.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb94713-a837-4b76-9849-f24e345a89ff")
+	)
+	(junction
 		(at 312.42 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5784,6 +5808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc99e342-dd24-44dc-af7a-c612bc80c933")
+	)
+	(junction
+		(at 210.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf37583d-814e-4521-8602-62397c02e5eb")
 	)
 	(junction
 		(at 234.95 232.41)
@@ -5882,6 +5912,16 @@
 			(type default)
 		)
 		(uuid "0363bb9d-f883-4899-a7e1-ebbd80b83655")
+	)
+	(wire
+		(pts
+			(xy 287.02 110.49) (xy 287.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0506195b-97c0-46e3-a4af-19b7d7494094")
 	)
 	(wire
 		(pts
@@ -6025,6 +6065,26 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 63.5) (xy 378.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d04ef6-5bd7-4b7a-a7f3-d219438883a4")
+	)
+	(wire
+		(pts
+			(xy 391.16 74.93) (xy 391.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1809bfbb-5ee0-46d0-b480-e5d4bb16bf50")
+	)
+	(wire
+		(pts
 			(xy 368.3 156.21) (xy 353.06 156.21)
 		)
 		(stroke
@@ -6085,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 63.5) (xy 279.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a82e31-7187-47b4-a7c3-ac1e955dc0e4")
+	)
+	(wire
+		(pts
 			(xy 307.34 186.69) (xy 322.58 186.69)
 		)
 		(stroke
@@ -6102,6 +6172,16 @@
 			(type default)
 		)
 		(uuid "2503a815-4543-433d-b122-9788bb4fb550")
+	)
+	(wire
+		(pts
+			(xy 378.46 67.31) (xy 378.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258ab287-b4f2-442f-8d1a-c10bf60633f6")
 	)
 	(wire
 		(pts
@@ -6132,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "2912b443-d232-4e84-b01f-dae522203cbc")
+	)
+	(wire
+		(pts
+			(xy 322.58 62.23) (xy 335.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f06676-7907-4934-ad6e-f63131f2e0df")
 	)
 	(wire
 		(pts
@@ -6205,6 +6295,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 67.31) (xy 391.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d9e1d6-2aab-44cc-b0c5-a1e0337dd6f4")
+	)
+	(wire
+		(pts
 			(xy 177.8 194.31) (xy 185.42 194.31)
 		)
 		(stroke
@@ -6225,7 +6325,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 69.85) (xy 322.58 74.93)
+			(xy 266.7 63.5) (xy 266.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354ca6ce-d073-418a-8e72-90bcdb86630f")
+	)
+	(wire
+		(pts
+			(xy 322.58 71.12) (xy 322.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6405,6 +6515,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 107.95) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5472bfce-b0ec-42cb-95ce-9f8b1ede1e7b")
+	)
+	(wire
+		(pts
 			(xy 177.8 186.69) (xy 177.8 194.31)
 		)
 		(stroke
@@ -6422,6 +6542,16 @@
 			(type default)
 		)
 		(uuid "57960aed-291d-4d28-a1b9-bca41162f113")
+	)
+	(wire
+		(pts
+			(xy 335.28 62.23) (xy 335.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591b5a9f-e5f3-4fbf-b0ad-d8222517c4ce")
 	)
 	(wire
 		(pts
@@ -6485,7 +6615,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 69.85) (xy 378.46 74.93)
+			(xy 378.46 74.93) (xy 378.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6635,16 +6765,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 118.11) (xy 274.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718dc4ba-8745-42f9-96e3-9edd9d637d4b")
-	)
-	(wire
-		(pts
 			(xy 234.95 236.22) (xy 234.95 232.41)
 		)
 		(stroke
@@ -6682,6 +6802,26 @@
 			(type default)
 		)
 		(uuid "82af504c-8d7b-4459-9c50-04b9b5a11810")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b8f7db-2871-4580-aff6-585d7cfcc7db")
+	)
+	(wire
+		(pts
+			(xy 391.16 90.17) (xy 391.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8562ec8d-0b87-4583-a651-5864e5a08b60")
 	)
 	(wire
 		(pts
@@ -6745,6 +6885,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 107.95) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950f5029-0306-4d40-a8e0-d3bbd8688bdc")
+	)
+	(wire
+		(pts
 			(xy 368.3 57.15) (xy 370.84 57.15)
 		)
 		(stroke
@@ -6805,6 +6955,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 71.12) (xy 335.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00132bf-96bb-4b33-9a73-f846c799333b")
+	)
+	(wire
+		(pts
 			(xy 260.35 102.87) (xy 266.7 102.87)
 		)
 		(stroke
@@ -6835,7 +6995,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 85.09) (xy 378.46 82.55)
+			(xy 378.46 90.17) (xy 378.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6895,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 69.85) (xy 266.7 74.93)
+			(xy 266.7 71.12) (xy 266.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7145,6 +7305,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 110.49) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f78017-64c3-413a-99fc-55ddd6e8bd6c")
+	)
+	(wire
+		(pts
 			(xy 219.71 228.6) (xy 219.71 232.41)
 		)
 		(stroke
@@ -7215,6 +7385,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 63.5) (xy 378.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de718586-e251-4f39-a6d1-951d526c3eff")
+	)
+	(wire
+		(pts
 			(xy 19.05 138.43) (xy 41.91 138.43)
 		)
 		(stroke
@@ -7232,6 +7412,16 @@
 			(type default)
 		)
 		(uuid "df026d8b-0b8f-4b2b-bba7-47bea302f491")
+	)
+	(wire
+		(pts
+			(xy 279.4 71.12) (xy 279.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1085900-04ad-4bb8-9f75-73d5a0f4d391")
 	)
 	(wire
 		(pts
@@ -7375,16 +7565,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 210.82 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec37d5dc-ab85-4640-b304-072c4322272f")
-	)
-	(wire
-		(pts
 			(xy 280.67 247.65) (xy 280.67 251.46)
 		)
 		(stroke
@@ -7422,6 +7602,16 @@
 			(type default)
 		)
 		(uuid "f1cf6b39-cf06-49bc-8b65-ed4421a67f39")
+	)
+	(wire
+		(pts
+			(xy 322.58 63.5) (xy 322.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f461c4bb-0406-4b3f-acef-10d86f1c6ea5")
 	)
 	(wire
 		(pts
@@ -7492,6 +7682,16 @@
 			(type default)
 		)
 		(uuid "fafc299f-b283-4dd3-9136-5848f34d8e32")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.76) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb03c8c2-8a2f-4d6e-98a4-1f20e1fb0009")
 	)
 	(wire
 		(pts
@@ -8005,7 +8205,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-LED:NCD0805B2")
-		(at 266.7 62.23 270)
+		(at 266.7 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8014,7 +8214,7 @@
 		(fields_autoplaced yes)
 		(uuid "005dbf2f-84d8-4b07-9536-f16adc1e1e3d")
 		(property "Reference" "D1"
-			(at 270.51 66.3574 90)
+			(at 270.51 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8223,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 270.51 68.8974 90)
+			(at 270.51 70.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8232,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 251.46 62.23 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 247.65 62.23 0)
+			(at 247.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8252,7 @@
 			)
 		)
 		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 243.84 62.23 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +8262,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 240.03 62.23 0)
+			(at 240.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8272,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 236.22 62.23 0)
+			(at 236.22 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8282,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NCD0805R1"
-			(at 232.41 62.23 0)
+			(at 232.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8292,7 @@
 			)
 		)
 		(property "Digikey P/N" "350-2039-1-ND"
-			(at 228.6 62.23 0)
+			(at 228.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8302,7 @@
 			)
 		)
 		(property "Mouser P/N" "645-598-8120-107F"
-			(at 224.79 62.23 0)
+			(at 224.79 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8312,7 @@
 			)
 		)
 		(property "LCSC P/N" "C84256"
-			(at 220.98 62.23 0)
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8575,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
-		(at 322.58 74.93 270)
+		(at 322.58 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8383,7 +8583,7 @@
 		(dnp no)
 		(uuid "03a51a24-c1e7-4df1-8266-f07bceb52ab1")
 		(property "Reference" "R13"
-			(at 328.93 72.39 90)
+			(at 328.93 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8591,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 328.93 74.93 90)
+			(at 328.93 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8599,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 307.34 74.93 0)
+			(at 307.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
-			(at 303.53 74.93 0)
+			(at 303.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8619,7 @@
 			)
 		)
 		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
-			(at 299.72 74.93 0)
+			(at 299.72 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8629,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 328.93 77.47 90)
+			(at 328.93 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8637,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 328.93 80.01 90)
+			(at 328.93 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8645,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 328.93 82.55 90)
+			(at 328.93 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8653,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
-			(at 284.48 74.93 0)
+			(at 284.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8663,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 280.67 74.93 0)
+			(at 280.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8673,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF2201T5E"
-			(at 276.86 74.93 0)
+			(at 276.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8683,7 @@
 			)
 		)
 		(property "Digikey P/N" "311-2.20KHRCT-ND"
-			(at 273.05 74.93 0)
+			(at 273.05 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8693,7 @@
 			)
 		)
 		(property "Mouser P/N" "603-RC0603FR-072K2L"
-			(at 269.24 74.93 0)
+			(at 269.24 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8703,7 @@
 			)
 		)
 		(property "LCSC P/N" "C4190"
-			(at 265.43 74.93 0)
+			(at 265.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,6 +9543,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 391.16 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ba1800-0c9c-41c0-8adf-a7763618c33b")
+		(property "Reference" "#PWR068"
+			(at 391.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.16 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 391.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cf78406-e9af-4298-a88b-57f38d54634a")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Diodes-LED:NCD0805G1")
 		(at 274.32 118.11 270)
 		(unit 1)
@@ -9635,6 +9900,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 224.79 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f013ce-d3c4-4f32-a2e5-d567795b731f")
+		(property "Reference" "#PWR069"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a184d648-2b1f-4cd6-acb1-4aa2a9c1356c")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
 		(at 64.77 76.2 90)
 		(unit 1)
@@ -9788,6 +10118,166 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-5.1k-1%-100mW-100PPM_1_1")
+		(at 224.79 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee913b5-2dc9-4c4a-8303-ff76bbbb887b")
+		(property "Reference" "R76"
+			(at 227.33 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 227.33 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1kΩ 0603 JLCPCB Basic Resistor"
+			(at 247.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 227.33 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 227.33 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 227.33 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+			(at 262.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 266.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF2201T5E"
+			(at 270.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-2.20KHRCT-ND"
+			(at 274.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 278.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 281.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d734d543-5901-4f8b-a897-2483985ebdf2")
+		)
+		(pin "1"
+			(uuid "ce209b12-b01f-4ad9-85ef-fb57eadfbe53")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -10153,7 +10643,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-LED:NCD0805G1")
-		(at 210.82 118.11 270)
+		(at 210.82 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10162,7 +10652,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b3ed567-ba15-4b27-b727-fda3031c3e75")
 		(property "Reference" "D9"
-			(at 214.63 122.2374 90)
+			(at 214.63 123.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10661,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 214.63 124.7774 90)
+			(at 214.63 126.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10670,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 195.58 118.11 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10680,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 191.77 118.11 0)
+			(at 191.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10690,7 @@
 			)
 		)
 		(property "Description" "Green LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 187.96 118.11 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10700,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 184.15 118.11 0)
+			(at 184.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10710,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 180.34 118.11 0)
+			(at 180.34 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10720,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NCD0805R1"
-			(at 176.53 118.11 0)
+			(at 176.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10730,7 @@
 			)
 		)
 		(property "Digikey P/N" "350-2039-1-ND"
-			(at 172.72 118.11 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10740,7 @@
 			)
 		)
 		(property "Mouser P/N" "645-598-8120-107F"
-			(at 168.91 118.11 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10750,7 @@
 			)
 		)
 		(property "LCSC P/N" "C84256"
-			(at 165.1 118.11 0)
+			(at 165.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,6 +12915,586 @@
 		)
 	)
 	(symbol
+		(lib_id "-Diodes-LED:NCD0805B2")
+		(at 335.28 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4554956c-a25f-4589-8203-a7401c1a031e")
+		(property "Reference" "D46"
+			(at 339.09 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Blue"
+			(at 339.09 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 320.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 316.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(at 312.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 308.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 304.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 300.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "350-2039-1-ND"
+			(at 297.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "645-598-8120-107F"
+			(at 293.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 289.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e842b0-da70-4320-8e8b-d9b1169408ad")
+		)
+		(pin "2"
+			(uuid "edbb36df-b19c-4bda-b459-de7609928de5")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-5.1k-1%-100mW-100PPM_1_1")
+		(at 287.02 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464e2c6c-c0e9-497b-a6ec-11387a22fe31")
+		(property "Reference" "R77"
+			(at 289.56 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 289.56 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
+			(at 306.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1kΩ 0603 JLCPCB Basic Resistor"
+			(at 309.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 289.56 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 289.56 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 289.56 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+			(at 325.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 328.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF2201T5E"
+			(at 332.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-2.20KHRCT-ND"
+			(at 336.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 340.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 344.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0184bdc-ced9-4d6b-9532-52bbe707c1a9")
+		)
+		(pin "1"
+			(uuid "b55983b0-0e9f-4a6f-9f72-50f0ebe8cdf5")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Diodes-LED:NCD0805G1")
+		(at 287.02 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bdd0bc-46ab-45ce-917a-693391aecc9f")
+		(property "Reference" "D49"
+			(at 290.83 122.2374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green"
+			(at 290.83 124.7774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 271.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 252.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "350-2039-1-ND"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "645-598-8120-107F"
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c26348f-da9e-4f6d-8e17-767dce40e24c")
+		)
+		(pin "1"
+			(uuid "b8839c66-b12c-4dff-99ce-366d0b4fb3c0")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
+		(at 391.16 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb44da9-f2ac-4e1f-95c5-30e600ab70c6")
+		(property "Reference" "R75"
+			(at 397.51 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 397.51 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 375.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
+			(at 372.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
+			(at 368.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 397.51 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 397.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 397.51 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+			(at 353.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF2201T5E"
+			(at 345.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-2.20KHRCT-ND"
+			(at 341.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 337.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 334.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e66af4a-96fe-43e2-8799-2fe13fc1b81d")
+		)
+		(pin "1"
+			(uuid "6fe1bc53-8291-449f-8d07-f346ba13cdfc")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 219.71 228.6 0)
 		(mirror y)
@@ -13038,6 +14108,139 @@
 		)
 	)
 	(symbol
+		(lib_id "-Diodes-LED:NCD0805B2")
+		(at 391.16 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a26555-8e7f-4fa6-a7b6-196c3afd8947")
+		(property "Reference" "D47"
+			(at 394.97 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Blue"
+			(at 394.97 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 375.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 372.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(at 368.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 364.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 360.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 356.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "350-2039-1-ND"
+			(at 353.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "645-598-8120-107F"
+			(at 349.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 345.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "123e2ed4-d833-495e-9b2f-c3e46b7e04ab")
+		)
+		(pin "2"
+			(uuid "df810a45-c301-4cff-9042-06596b3cff59")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 271.78 102.87 0)
 		(unit 1)
@@ -13250,7 +14453,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-LED:NCD0805B2")
-		(at 378.46 62.23 270)
+		(at 378.46 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13259,7 +14462,7 @@
 		(fields_autoplaced yes)
 		(uuid "581fef8a-2355-4bef-9dc6-47a03f33a0db")
 		(property "Reference" "D3"
-			(at 382.27 66.3574 90)
+			(at 382.27 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,7 +14471,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 382.27 68.8974 90)
+			(at 382.27 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13277,7 +14480,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 363.22 62.23 0)
+			(at 363.22 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +14490,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 359.41 62.23 0)
+			(at 359.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +14500,7 @@
 			)
 		)
 		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 355.6 62.23 0)
+			(at 355.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13307,7 +14510,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 351.79 62.23 0)
+			(at 351.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +14520,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 347.98 62.23 0)
+			(at 347.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +14530,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NCD0805R1"
-			(at 344.17 62.23 0)
+			(at 344.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +14540,7 @@
 			)
 		)
 		(property "Digikey P/N" "350-2039-1-ND"
-			(at 340.36 62.23 0)
+			(at 340.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +14550,7 @@
 			)
 		)
 		(property "Mouser P/N" "645-598-8120-107F"
-			(at 336.55 62.23 0)
+			(at 336.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +14560,7 @@
 			)
 		)
 		(property "LCSC P/N" "C84256"
-			(at 332.74 62.23 0)
+			(at 332.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +14718,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 266.7 82.55 0)
+		(at 266.7 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13523,7 +14726,7 @@
 		(dnp no)
 		(uuid "5b813813-cb8a-41d7-ab58-32d76c4c093d")
 		(property "Reference" "#PWR013"
-			(at 266.7 88.9 0)
+			(at 266.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +14735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 86.995 0)
+			(at 266.7 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +14743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 82.55 0)
+			(at 266.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,7 +14752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 82.55 0)
+			(at 266.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +14761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 266.7 82.55 0)
+			(at 266.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,7 +14783,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-5.1k-1%-100mW-100PPM_1_1")
-		(at 210.82 115.57 90)
+		(at 210.82 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13589,7 +14792,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ca92eee-d0c1-47f8-9b24-7863db06c3bf")
 		(property "Reference" "R21"
-			(at 213.36 106.6799 90)
+			(at 213.36 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +14801,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 213.36 109.2199 90)
+			(at 213.36 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +14810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 226.06 115.57 0)
+			(at 226.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +14820,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
-			(at 229.87 115.57 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +14830,7 @@
 			)
 		)
 		(property "Description" "5.1kΩ 0603 JLCPCB Basic Resistor"
-			(at 233.68 115.57 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +14840,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 213.36 111.7599 90)
+			(at 213.36 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +14849,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 213.36 114.2999 90)
+			(at 213.36 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +14858,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 213.36 116.8399 90)
+			(at 213.36 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +14867,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
-			(at 248.92 115.57 0)
+			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +14877,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 252.73 115.57 0)
+			(at 252.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13684,7 +14887,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF2201T5E"
-			(at 256.54 115.57 0)
+			(at 256.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13694,7 +14897,7 @@
 			)
 		)
 		(property "Digikey P/N" "311-2.20KHRCT-ND"
-			(at 260.35 115.57 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +14907,7 @@
 			)
 		)
 		(property "Mouser P/N" "603-RC0603FR-072K2L"
-			(at 264.16 115.57 0)
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,7 +14917,7 @@
 			)
 		)
 		(property "LCSC P/N" "C4190"
-			(at 267.97 115.57 0)
+			(at 267.97 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +15272,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
-		(at 266.7 74.93 270)
+		(at 266.7 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14077,7 +15280,7 @@
 		(dnp no)
 		(uuid "6c587562-fa25-483d-9b57-36ee5e9eaa28")
 		(property "Reference" "R12"
-			(at 273.05 72.39 90)
+			(at 273.05 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +15288,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 273.05 74.93 90)
+			(at 273.05 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14093,7 +15296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 251.46 74.93 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +15306,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
-			(at 247.65 74.93 0)
+			(at 247.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +15316,7 @@
 			)
 		)
 		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
-			(at 243.84 74.93 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,7 +15326,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 273.05 77.47 90)
+			(at 273.05 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,7 +15334,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 273.05 80.01 90)
+			(at 273.05 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14139,7 +15342,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 273.05 82.55 90)
+			(at 273.05 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14147,7 +15350,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
-			(at 228.6 74.93 0)
+			(at 228.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +15360,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 224.79 74.93 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +15370,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF2201T5E"
-			(at 220.98 74.93 0)
+			(at 220.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +15380,7 @@
 			)
 		)
 		(property "Digikey P/N" "311-2.20KHRCT-ND"
-			(at 217.17 74.93 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14187,7 +15390,7 @@
 			)
 		)
 		(property "Mouser P/N" "603-RC0603FR-072K2L"
-			(at 213.36 74.93 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +15400,7 @@
 			)
 		)
 		(property "LCSC P/N" "C4190"
-			(at 209.55 74.93 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,6 +15888,71 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 335.28 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d0b6b83-23e5-4007-a468-b3abe39b460b")
+		(property "Reference" "#PWR067"
+			(at 335.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 335.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa7966b-62ea-4a18-a641-cd1a221ae37b")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15196,6 +16464,139 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Diodes-LED:NCD0805B2")
+		(at 279.4 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8253ec1e-6173-400f-a1b2-77bd4e2b499a")
+		(property "Reference" "D45"
+			(at 283.21 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Blue"
+			(at 283.21 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "350-2039-1-ND"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "645-598-8120-107F"
+			(at 237.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3543a53-2bea-4b0c-958b-c27285c696d8")
+		)
+		(pin "2"
+			(uuid "870d1e3b-600b-48f5-80d6-2365d55a6ab8")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -15849,7 +17250,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-LED:NCD0805B2")
-		(at 322.58 62.23 270)
+		(at 322.58 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15858,7 +17259,7 @@
 		(fields_autoplaced yes)
 		(uuid "91c67c2c-7b86-4e03-af9b-05349072f74b")
 		(property "Reference" "D2"
-			(at 326.39 66.3574 90)
+			(at 326.39 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +17268,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 326.39 68.8974 90)
+			(at 326.39 70.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +17277,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 307.34 62.23 0)
+			(at 307.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15886,7 +17287,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 303.53 62.23 0)
+			(at 303.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +17297,7 @@
 			)
 		)
 		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 299.72 62.23 0)
+			(at 299.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +17307,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 295.91 62.23 0)
+			(at 295.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,7 +17317,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 292.1 62.23 0)
+			(at 292.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15926,7 +17327,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NCD0805R1"
-			(at 288.29 62.23 0)
+			(at 288.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +17337,7 @@
 			)
 		)
 		(property "Digikey P/N" "350-2039-1-ND"
-			(at 284.48 62.23 0)
+			(at 284.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15946,7 +17347,7 @@
 			)
 		)
 		(property "Mouser P/N" "645-598-8120-107F"
-			(at 280.67 62.23 0)
+			(at 280.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15956,7 +17357,7 @@
 			)
 		)
 		(property "LCSC P/N" "C84256"
-			(at 276.86 62.23 0)
+			(at 276.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16337,7 +17738,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 378.46 85.09 0)
+		(at 378.46 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16345,7 +17746,7 @@
 		(dnp no)
 		(uuid "9f7ffd40-fdb5-4457-9a8c-e026ebcd6f31")
 		(property "Reference" "#PWR016"
-			(at 378.46 91.44 0)
+			(at 378.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +17755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 378.46 89.535 0)
+			(at 378.46 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +17763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 85.09 0)
+			(at 378.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16371,7 +17772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 378.46 85.09 0)
+			(at 378.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16380,7 +17781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 378.46 85.09 0)
+			(at 378.46 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16632,7 +18033,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-5.1k-1%-100mW-100PPM_1_1")
-		(at 274.32 115.57 90)
+		(at 274.32 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16641,15 +18042,6 @@
 		(fields_autoplaced yes)
 		(uuid "a2166188-75ed-40f7-b268-ba7a819755e6")
 		(property "Reference" "R22"
-			(at 276.86 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5.1k"
 			(at 276.86 109.2199 90)
 			(effects
 				(font
@@ -16658,8 +18050,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "5.1k"
+			(at 276.86 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 289.56 115.57 0)
+			(at 289.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +18070,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
-			(at 293.37 115.57 0)
+			(at 293.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16679,7 +18080,7 @@
 			)
 		)
 		(property "Description" "5.1kΩ 0603 JLCPCB Basic Resistor"
-			(at 297.18 115.57 0)
+			(at 297.18 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,15 +18090,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 276.86 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Power Rating" "100mW"
 			(at 276.86 114.2999 90)
 			(effects
 				(font
@@ -16706,7 +18098,7 @@
 				(justify right)
 			)
 		)
-		(property "Case/Package" "0603"
+		(property "Power Rating" "100mW"
 			(at 276.86 116.8399 90)
 			(effects
 				(font
@@ -16715,8 +18107,17 @@
 				(justify right)
 			)
 		)
+		(property "Case/Package" "0603"
+			(at 276.86 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
-			(at 312.42 115.57 0)
+			(at 312.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16726,7 +18127,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 316.23 115.57 0)
+			(at 316.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,7 +18137,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF2201T5E"
-			(at 320.04 115.57 0)
+			(at 320.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16746,7 +18147,7 @@
 			)
 		)
 		(property "Digikey P/N" "311-2.20KHRCT-ND"
-			(at 323.85 115.57 0)
+			(at 323.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16756,7 +18157,7 @@
 			)
 		)
 		(property "Mouser P/N" "603-RC0603FR-072K2L"
-			(at 327.66 115.57 0)
+			(at 327.66 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16766,7 +18167,7 @@
 			)
 		)
 		(property "LCSC P/N" "C4190"
-			(at 331.47 115.57 0)
+			(at 331.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17652,6 +19053,225 @@
 		)
 	)
 	(symbol
+		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
+		(at 279.4 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5fe5e1-929e-4e43-920e-86aac3d9f8db")
+		(property "Reference" "R73"
+			(at 285.75 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 285.75 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 285.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 285.75 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 285.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF2201T5E"
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-2.20KHRCT-ND"
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63b4a84f-bf9e-4672-b10e-9f30369a4114")
+		)
+		(pin "1"
+			(uuid "7e36a539-8bd5-4681-9920-766c1be7714c")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 279.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd8f1bd8-fdfe-4298-8b42-84f5d779742c")
+		(property "Reference" "#PWR066"
+			(at 279.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af8471b4-c096-48da-a32a-d5b348610e8b")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
 		(at 234.95 220.98 90)
 		(unit 1)
@@ -18334,7 +19954,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 322.58 82.55 0)
+		(at 322.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18342,7 +19962,7 @@
 		(dnp no)
 		(uuid "d048eeaf-7477-4bb2-8298-5f3215191bfe")
 		(property "Reference" "#PWR014"
-			(at 322.58 88.9 0)
+			(at 322.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,7 +19971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 322.58 86.995 0)
+			(at 322.58 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,7 +19979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 82.55 0)
+			(at 322.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,7 +19988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 82.55 0)
+			(at 322.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18377,7 +19997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 322.58 82.55 0)
+			(at 322.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,7 +20155,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 210.82 125.73 0)
+		(at 210.82 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18543,7 +20163,7 @@
 		(dnp no)
 		(uuid "d88402df-7257-40e3-87c1-18ef97afb8e0")
 		(property "Reference" "#PWR021"
-			(at 210.82 132.08 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18552,7 +20172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 130.175 0)
+			(at 210.82 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18560,7 +20180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 125.73 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18569,7 +20189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 125.73 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18578,7 +20198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 210.82 125.73 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19025,6 +20645,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 287.02 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea54b103-c381-4027-b62c-1a0c1814764f")
+		(property "Reference" "#PWR070"
+			(at 287.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 287.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "211d3bc6-ff69-4fef-8a92-616ea53cc67c")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-R-SMD-0603:R-0603-0-1%-100mW-1500PPM")
 		(at 68.58 64.77 0)
 		(unit 1)
@@ -19239,6 +20924,139 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Diodes-LED:NCD0805G1")
+		(at 224.79 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eecb4dad-736d-4e9f-ad6a-783925a07124")
+		(property "Reference" "D48"
+			(at 228.6 123.5074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green"
+			(at 228.6 126.0474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 205.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "350-2039-1-ND"
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "645-598-8120-107F"
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "683f75e4-482a-4177-bc94-91464644be29")
+		)
+		(pin "1"
+			(uuid "550383be-7487-444e-bb43-61fc3f83fd5f")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -19693,7 +21511,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
-		(at 378.46 74.93 270)
+		(at 378.46 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19701,7 +21519,7 @@
 		(dnp no)
 		(uuid "fdb03767-272b-447e-9491-cd44b1f10a23")
 		(property "Reference" "R14"
-			(at 384.81 72.39 90)
+			(at 384.81 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19709,7 +21527,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 384.81 74.93 90)
+			(at 384.81 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19717,7 +21535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 363.22 74.93 0)
+			(at 363.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19727,7 +21545,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
-			(at 359.41 74.93 0)
+			(at 359.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19737,7 +21555,7 @@
 			)
 		)
 		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
-			(at 355.6 74.93 0)
+			(at 355.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19747,22 +21565,6 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 384.81 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 384.81 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Case/Package" "0603"
 			(at 384.81 82.55 90)
 			(effects
 				(font
@@ -19770,8 +21572,24 @@
 				)
 			)
 		)
+		(property "Power Rating" "100mW"
+			(at 384.81 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 384.81 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
-			(at 340.36 74.93 0)
+			(at 340.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +21599,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 336.55 74.93 0)
+			(at 336.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19791,7 +21609,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF2201T5E"
-			(at 332.74 74.93 0)
+			(at 332.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19801,7 +21619,7 @@
 			)
 		)
 		(property "Digikey P/N" "311-2.20KHRCT-ND"
-			(at 328.93 74.93 0)
+			(at 328.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19811,7 +21629,7 @@
 			)
 		)
 		(property "Mouser P/N" "603-RC0603FR-072K2L"
-			(at 325.12 74.93 0)
+			(at 325.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +21639,7 @@
 			)
 		)
 		(property "LCSC P/N" "C4190"
-			(at 321.31 74.93 0)
+			(at 321.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19840,6 +21658,160 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-2.2k-1%-100mW-100PPM")
+		(at 335.28 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff402384-13c7-425b-8dbb-c446b8368891")
+		(property "Reference" "R74"
+			(at 341.63 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 341.63 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 320.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706158415659008"
+			(at 316.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2kΩ 0603 JLCPCB Basic Resistor"
+			(at 312.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 341.63 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 341.63 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 341.63 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+			(at 297.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 293.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF2201T5E"
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-2.20KHRCT-ND"
+			(at 285.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603FR-072K2L"
+			(at 281.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4190"
+			(at 278.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50a8e328-a8ae-49f2-bc88-f8ee46250547")
+		)
+		(pin "1"
+			(uuid "e66818be-e879-4759-ab41-a134df9b4545")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f"
+					(reference "R74")
 					(unit 1)
 				)
 			)
