@@ -1721,7 +1721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876127fe-84ce-4fe0-9974-726ffa5effd8")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 194.31 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -1781,7 +1781,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/d0efc49a-1e04-47b9-bbf8-a506e96d4b4f"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9176e199-8a35-4e59-8d0f-f6c182bf66bf")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 194.31 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -1858,7 +1858,7 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/d0efc49a-1e04-47b9-bbf8-a506e96d4b4f"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

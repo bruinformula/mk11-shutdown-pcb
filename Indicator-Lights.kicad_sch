@@ -1185,7 +1185,7 @@
 	)
 	(text_box "NOTE: When IMD-FAULT-VCU is 12V, there is a fault, when it is 0V there is no fault."
 		(exclude_from_sim no)
-		(at 163.83 118.11 0)
+		(at 163.83 129.54 0)
 		(size 22.86 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1208,7 +1208,7 @@
 	)
 	(text_box "NOTE: When TSSI-STATUS is 12V, there is no fault, and when it is 0V, there is a fault.\n\nWhen either IMD-FAULT-VCU and/or BMS-FAULT-VCU are 12V, then there is a fault, so TSSI-STATUS gets pulled down to 0V."
 		(exclude_from_sim no)
-		(at 220.98 160.02 0)
+		(at 213.36 171.45 0)
 		(size 34.29 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1231,7 +1231,7 @@
 	)
 	(text_box "NOTE: When BMS-FAULT-VCU is 12V, there is a fault, when it is 0V there is no fault."
 		(exclude_from_sim no)
-		(at 163.83 137.16 0)
+		(at 163.83 148.59 0)
 		(size 22.86 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1253,38 +1253,38 @@
 		(uuid "b4e8129b-26b5-4754-a5c4-323c840fec26")
 	)
 	(junction
-		(at 209.55 156.21)
+		(at 209.55 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02c8fa7e-4f0f-4cf7-a131-9ef2cd8fbded")
 	)
 	(junction
-		(at 201.93 129.54)
+		(at 201.93 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7142b99e-3137-4c31-98b2-c507a67fc51e")
 	)
 	(junction
-		(at 209.55 121.92)
+		(at 209.55 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c6c05c-65f5-4b96-9e4b-86bee1fdfd44")
 	)
 	(junction
-		(at 201.93 148.59)
+		(at 201.93 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8890e451-eb50-4227-9585-dc58e305ba55")
 	)
 	(junction
-		(at 209.55 140.97)
+		(at 209.55 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c668b4cc-ded8-4ce0-94ff-7b26613a984b")
 	)
 	(wire
 		(pts
-			(xy 186.69 129.54) (xy 190.5 129.54)
+			(xy 186.69 140.97) (xy 190.5 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 118.11) (xy 209.55 121.92)
+			(xy 209.55 129.54) (xy 209.55 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1304,17 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 167.64) (xy 209.55 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168fe609-897e-4f2b-8b17-7bac465ac50f")
-	)
-	(wire
-		(pts
-			(xy 201.93 140.97) (xy 201.93 148.59)
+			(xy 201.93 152.4) (xy 201.93 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 156.21) (xy 220.98 156.21)
+			(xy 209.55 167.64) (xy 220.98 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 156.21) (xy 209.55 160.02)
+			(xy 209.55 167.64) (xy 209.55 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 190.5 148.59)
+			(xy 186.69 160.02) (xy 190.5 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 129.54) (xy 201.93 129.54)
+			(xy 198.12 140.97) (xy 201.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 209.55 140.97)
+			(xy 209.55 148.59) (xy 209.55 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 121.92) (xy 201.93 129.54)
+			(xy 201.93 133.35) (xy 201.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 148.59) (xy 201.93 148.59)
+			(xy 198.12 160.02) (xy 201.93 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1384,7 @@
 	)
 	(hierarchical_label "BMS-FAULT-VCU"
 		(shape input)
-		(at 186.69 148.59 180)
+		(at 186.69 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,7 +1395,7 @@
 	)
 	(hierarchical_label "TSSI-STATUS"
 		(shape output)
-		(at 220.98 156.21 0)
+		(at 220.98 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1406,7 @@
 	)
 	(hierarchical_label "IMD-FAULT-VCU"
 		(shape input)
-		(at 186.69 129.54 180)
+		(at 186.69 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,7 +1417,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-Zener:BZT52C16")
-		(at 201.93 140.97 0)
+		(at 201.93 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1437,7 +1427,7 @@
 		(dnp no)
 		(uuid "0121c522-cb12-45fb-9641-11556f602bcb")
 		(property "Reference" "D30"
-			(at 210.9881 140.0119 0)
+			(at 210.9881 151.4419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1448,7 +1438,7 @@
 			)
 		)
 		(property "Value" "BZT52C16"
-			(at 210.9881 142.5519 0)
+			(at 210.9881 153.9819 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1459,42 +1449,6 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 201.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
-			(at 201.93 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
-			(at 201.93 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
 			(at 201.93 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -1506,7 +1460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Diotec"
+		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
 			(at 201.93 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -1518,7 +1472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer P/N" "BZT52C16"
+		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -1530,7 +1484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Digikey P/N" "4878-BZT52C16CT-ND"
+		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
 			(at 201.93 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -1542,7 +1496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser P/N" "637-BZT52C16"
+		(property "Manufacturer" "Diotec"
 			(at 201.93 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -1554,8 +1508,44 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC P/N" "C2105"
+		(property "Manufacturer P/N" "BZT52C16"
 			(at 201.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "4878-BZT52C16CT-ND"
+			(at 201.93 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "637-BZT52C16"
+			(at 201.93 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C2105"
+			(at 201.93 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1583,7 +1573,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 209.55 118.11 0)
+		(at 209.55 129.54 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1594,7 +1584,7 @@
 		(dnp no)
 		(uuid "2264e748-e580-4a1d-ac32-afc0ff718eee")
 		(property "Reference" "#PWR048"
-			(at 209.55 121.92 0)
+			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1595,7 @@
 			)
 		)
 		(property "Value" "BATT+PROT"
-			(at 209.55 113.665 0)
+			(at 209.55 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1615,7 +1605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 118.11 0)
+			(at 209.55 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,7 +1616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 118.11 0)
+			(at 209.55 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 209.55 118.11 0)
+			(at 209.55 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,7 +1651,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 190.5 129.54 0)
+		(at 190.5 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1671,7 +1661,7 @@
 		(dnp no)
 		(uuid "25722ef1-2000-4ab5-b3bf-0ef3c2fa2aaf")
 		(property "Reference" "R49"
-			(at 194.184 132.3247 0)
+			(at 194.184 143.7547 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1681,7 +1671,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 194.184 134.8647 0)
+			(at 194.184 146.2947 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1691,7 +1681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 190.5 144.78 0)
+			(at 190.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1703,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 190.5 148.59 0)
+			(at 190.5 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1715,7 +1705,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 190.5 152.4 0)
+			(at 190.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1717,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 194.184 137.4047 0)
+			(at 194.184 148.8347 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1737,7 +1727,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 194.184 139.9447 0)
+			(at 194.184 151.3747 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1747,7 +1737,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 194.184 142.4847 0)
+			(at 194.184 153.9147 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1757,42 +1747,6 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 190.5 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 190.5 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 190.5 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RG16P100KBCT-ND"
 			(at 190.5 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -1804,7 +1758,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser P/N" "754-RG1608P-104-B-T5"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 190.5 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -1816,8 +1770,44 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC P/N" "C25803"
+		(property "Manufacturer P/N" "0603WAF1003T5E"
 			(at 190.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "RG16P100KBCT-ND"
+			(at 190.5 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "754-RG1608P-104-B-T5"
+			(at 190.5 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C25803"
+			(at 190.5 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +1835,7 @@
 	)
 	(symbol
 		(lib_id "-MOSFET-P-Channel:SI2347DS-T1-GE3")
-		(at 201.93 148.59 0)
+		(at 201.93 160.02 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1856,7 +1846,7 @@
 		(dnp no)
 		(uuid "5bfe6efb-902c-46d2-9330-72f1026e0f67")
 		(property "Reference" "Q17"
-			(at 212.1133 147.4882 0)
+			(at 212.1133 158.9182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1867,7 +1857,7 @@
 			)
 		)
 		(property "Value" "SI2347DS-T1-GE3"
-			(at 212.1133 150.0282 0)
+			(at 212.1133 161.4582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1878,7 +1868,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 201.93 121.92 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1880,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 201.93 118.11 0)
+			(at 201.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +1892,7 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 5A (Tc) 1.7W (Tc) Surface Mount SOT-23-3 (TO-236)"
-			(at 201.93 114.3 0)
+			(at 201.93 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1904,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/vishay-siliconix/SI2347DS-T1-GE3/4496222?s=N4IgTCBcDaIMoEkwGYAsB2AInAtAFQEYcBxAUWQGE8cA5TEAXQF8g"
-			(at 201.93 110.49 0)
+			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +1916,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 201.93 106.68 0)
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1938,7 +1928,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "SI2347DS-T1-GE3"
-			(at 201.93 102.87 0)
+			(at 201.93 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +1940,7 @@
 			)
 		)
 		(property "Digikey P/N" "SI2347DS-T1-GE3CT-ND"
-			(at 201.93 99.06 0)
+			(at 201.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +1952,7 @@
 			)
 		)
 		(property "Mouser P/N" "78-SI2347DS-T1-GE3"
-			(at 201.93 95.25 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +1964,7 @@
 			)
 		)
 		(property "LCSC P/N" "C145002"
-			(at 201.93 91.44 0)
+			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +1995,7 @@
 	)
 	(symbol
 		(lib_id "-MOSFET-P-Channel:SI2347DS-T1-GE3")
-		(at 201.93 129.54 0)
+		(at 201.93 140.97 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2016,7 +2006,7 @@
 		(dnp no)
 		(uuid "6a7d01a9-6d6e-4ed2-8c71-f91543e87afe")
 		(property "Reference" "Q16"
-			(at 212.1133 128.4382 0)
+			(at 212.1133 139.8682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2027,7 +2017,7 @@
 			)
 		)
 		(property "Value" "SI2347DS-T1-GE3"
-			(at 212.1133 130.9782 0)
+			(at 212.1133 142.4082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2038,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 201.93 102.87 0)
+			(at 201.93 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2040,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 201.93 99.06 0)
+			(at 201.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,7 +2052,7 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 5A (Tc) 1.7W (Tc) Surface Mount SOT-23-3 (TO-236)"
-			(at 201.93 95.25 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2074,7 +2064,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/vishay-siliconix/SI2347DS-T1-GE3/4496222?s=N4IgTCBcDaIMoEkwGYAsB2AInAtAFQEYcBxAUWQGE8cA5TEAXQF8g"
-			(at 201.93 91.44 0)
+			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2076,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 201.93 87.63 0)
+			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,7 +2088,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "SI2347DS-T1-GE3"
-			(at 201.93 83.82 0)
+			(at 201.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2100,7 @@
 			)
 		)
 		(property "Digikey P/N" "SI2347DS-T1-GE3CT-ND"
-			(at 201.93 80.01 0)
+			(at 201.93 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2112,7 @@
 			)
 		)
 		(property "Mouser P/N" "78-SI2347DS-T1-GE3"
-			(at 201.93 76.2 0)
+			(at 201.93 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2124,7 @@
 			)
 		)
 		(property "LCSC P/N" "C145002"
-			(at 201.93 72.39 0)
+			(at 201.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,197 +2231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 209.55 167.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf815e2b-ba09-450a-898c-b34da10e668a")
-		(property "Reference" "R51"
-			(at 211.2951 159.088 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 211.2951 161.628 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 224.79 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 228.6 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 232.41 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 211.2951 164.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 211.2951 166.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 211.2951 169.248 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 247.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 251.46 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 255.27 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RG16P100KBCT-ND"
-			(at 259.08 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "754-RG1608P-104-B-T5"
-			(at 262.89 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C25803"
-			(at 266.7 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "178b8745-9f61-4a4f-acbf-c86da3d325a6")
-		)
-		(pin "1"
-			(uuid "e1b088c9-913b-48d8-ba24-4a0ce9da9855")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/42f0cf19-0e14-403a-bef6-1dfa2279046f"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-Diodes-Zener:BZT52C16")
-		(at 201.93 121.92 0)
+		(at 201.93 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2441,7 +2242,7 @@
 		(dnp no)
 		(uuid "f22fef3b-b98c-4df7-bccf-1a0068d4e16d")
 		(property "Reference" "D29"
-			(at 210.9881 120.9619 0)
+			(at 210.9881 132.3919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2452,7 +2253,7 @@
 			)
 		)
 		(property "Value" "BZT52C16"
-			(at 210.9881 123.5019 0)
+			(at 210.9881 134.9319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2463,42 +2264,6 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 201.93 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
-			(at 201.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
-			(at 201.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
 			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2510,7 +2275,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Diotec"
+		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
 			(at 201.93 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2522,7 +2287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer P/N" "BZT52C16"
+		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
 			(at 201.93 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -2534,7 +2299,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Digikey P/N" "4878-BZT52C16CT-ND"
+		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
 			(at 201.93 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2546,7 +2311,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser P/N" "637-BZT52C16"
+		(property "Manufacturer" "Diotec"
 			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -2558,8 +2323,44 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC P/N" "C2105"
+		(property "Manufacturer P/N" "BZT52C16"
 			(at 201.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "4878-BZT52C16CT-ND"
+			(at 201.93 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "637-BZT52C16"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C2105"
+			(at 201.93 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +2388,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 190.5 148.59 0)
+		(at 190.5 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2597,7 +2398,7 @@
 		(dnp no)
 		(uuid "f9f02470-615f-46af-bb0f-727cd2e3d0b3")
 		(property "Reference" "R50"
-			(at 194.184 151.3747 0)
+			(at 194.184 162.8047 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +2408,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 194.184 153.9147 0)
+			(at 194.184 165.3447 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2617,7 +2418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 190.5 163.83 0)
+			(at 190.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 190.5 167.64 0)
+			(at 190.5 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,7 +2442,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 190.5 171.45 0)
+			(at 190.5 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,7 +2454,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 194.184 156.4547 0)
+			(at 194.184 167.8847 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2663,7 +2464,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 194.184 158.9947 0)
+			(at 194.184 170.4247 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2673,7 +2474,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 194.184 161.5347 0)
+			(at 194.184 172.9647 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2683,42 +2484,6 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 190.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 190.5 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 190.5 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RG16P100KBCT-ND"
 			(at 190.5 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -2730,7 +2495,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser P/N" "754-RG1608P-104-B-T5"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 190.5 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -2742,8 +2507,44 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC P/N" "C25803"
+		(property "Manufacturer P/N" "0603WAF1003T5E"
 			(at 190.5 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "RG16P100KBCT-ND"
+			(at 190.5 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "754-RG1608P-104-B-T5"
+			(at 190.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C25803"
+			(at 190.5 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -77,6 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -94,6 +97,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -113,9 +117,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "warning",
         "via_dangling": "warning",
@@ -537,7 +544,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -618,7 +625,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -659,13 +666,17 @@
         "uuid": "624b8e71-6fec-49ba-b7c9-b659e140fc2f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TSMS1,MH1-4,BYPASS1,J1-2,R1-81,IMD1,BMS1,HVILS1,CS1,BSPD1,Q1-25,BOTS1,#PWR1-69,D1-55,VIN1,U1,C1-2",
     "variants": []
   },
   "sheets": [
     [
       "624b8e71-6fec-49ba-b7c9-b659e140fc2f",
       "Shutdown"
+    ],
+    [
+      "04747b6a-6d13-4afb-a96b-93676889618f",
+      "Debug-Lights"
     ],
     [
       "2f9ac893-2047-438f-af87-5654fc0cb14f",
@@ -677,7 +688,7 @@
     ],
     [
       "42f0cf19-0e14-403a-bef6-1dfa2279046f",
-      "Indicator-Lights"
+      "TSSI-Status-Signal"
     ],
     [
       "3b4e2b7a-b875-4df2-afb4-7cd15d570973",

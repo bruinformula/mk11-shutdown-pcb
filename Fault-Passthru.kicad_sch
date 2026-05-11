@@ -63,7 +63,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
+			(property "Description" "Red LED, SMD 0805, Vf 1.6-2.6 V, Iv 195 mcd @ 25 mA"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -111,7 +111,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Digikey P/N" "350-2039-1-ND"
+			(property "Digikey P/N" "160-1427-1-ND"
 				(at 0 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -123,7 +123,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser P/N" "645-598-8120-107F"
+			(property "Mouser P/N" "859-LTST-C171KRKT"
 				(at 0 -41.91 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1474,7 +1474,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "-R-SMD-0603:R-0603-51-1%-100mW-100PPM"
+		(symbol "-R-SMD-0603:R-0603-1M-1%-100mW-100PPM"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1497,7 +1497,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "51"
+			(property "Value" "1M"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1520,7 +1520,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706384138620928"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706152755920896"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1532,7 +1532,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "51Ω 0603 JLCPCB Basic Resistor"
+			(property "Description" "1MΩ 0603 JLCPCB Basic Resistor"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1577,7 +1577,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Link" "https://jlcpcb.com/partdetail/23924-0603WAF510JT5E/C23197"
+			(property "Link" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
 				(at 0 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1601,7 +1601,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer P/N" "0603WAF510JT5E"
+			(property "Manufacturer P/N" "0603WAF1004T5E"
 				(at 0 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Digikey P/N" "RMCF0603FT51R0CT-ND"
+			(property "Digikey P/N" "YAG4498CT-ND"
 				(at 0 -49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1625,7 +1625,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser P/N" "708-RMCF0603FT51R0"
+			(property "Mouser P/N" "603-RT0603BRD071ML"
 				(at 0 -53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1637,7 +1637,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC P/N" "C23197"
+			(property "LCSC P/N" "C22935"
 				(at 0 -57.15 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1649,7 +1649,7 @@
 					(justify left bottom)
 				)
 			)
-			(symbol "R-0603-51-1%-100mW-100PPM_0_1"
+			(symbol "R-0603-1M-1%-100mW-100PPM_0_1"
 				(polyline
 					(pts
 						(xy 1.524 0) (xy 1.27 0)
@@ -1711,7 +1711,7 @@
 					)
 				)
 			)
-			(symbol "R-0603-51-1%-100mW-100PPM_1_1"
+			(symbol "R-0603-1M-1%-100mW-100PPM_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -1751,7 +1751,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "-R-SMD-0603:R-0603-510-1%-100mW-100PPM"
+		(symbol "-R-SMD-0603:R-0603-680-1%-100mW-100PPM"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1774,7 +1774,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "510"
+			(property "Value" "680"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1797,7 +1797,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706285526474752"
+			(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706305705410560-C23228.pdf?response-content-disposition=attachment%3B%20filename%3DC23228.pdf%3B%20filename%2A%3DUTF-8%27%27C23228.pdf&x-oss-date=20260511T032626Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ncIsLklbBqwrPZMHT7lWcRXfhHi6%2FIpzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeVVg0lI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhpm01x51tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIjH1f5qKWD5sagAE%2FsBzGxivqT%2BqLPxLY9CGaz8nYidyCgER0E6y4YsAjkWmSIIBpWWiarYQoKBusdEAfnQ6WDJTWeNg7bea86y8yr0awjHs8yyd0qcBq57v36PAbX1o%2BsxYXXN9H2uI1huPNImGyoAMeJILJWmvBS3BlqMenKq%2BDHi2hPkX%2FrPOSXSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZiixPxoKuq22RJqgDQwkdjcE%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=adfe51cdec23501e415b966cfbc717ceb2a1bba8921bcec299f87ad629fcf4f5"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1809,7 +1809,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "510Ω 0603 JLCPCB Basic Resistor"
+			(property "Description" "680Ω 0603 JLCPCB Basic Resistor"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1854,7 +1854,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Link" "https://jlcpcb.com/partdetail/23920-0603WAF5100T5E/C23193"
+			(property "Link" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
 				(at 0 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1878,7 +1878,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer P/N" "0603WAF5100T5E"
+			(property "Manufacturer P/N" "0603WAF6800T5E"
 				(at 0 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1890,7 +1890,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Digikey P/N" "RR08P510DCT-ND"
+			(property "Digikey P/N" "311-680GRCT-ND"
 				(at 0 -49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1902,7 +1902,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser P/N" "754-RR0816P-511D"
+			(property "Mouser P/N" "603-RC0603JR-07680RL"
 				(at 0 -53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1914,7 +1914,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC P/N" "C23193"
+			(property "LCSC P/N" "C23228"
 				(at 0 -57.15 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1926,7 +1926,7 @@
 					(justify left bottom)
 				)
 			)
-			(symbol "R-0603-510-1%-100mW-100PPM_0_1"
+			(symbol "R-0603-680-1%-100mW-100PPM_0_1"
 				(polyline
 					(pts
 						(xy 1.524 0) (xy 1.27 0)
@@ -1988,7 +1988,7 @@
 					)
 				)
 			)
-			(symbol "R-0603-510-1%-100mW-100PPM_1_1"
+			(symbol "R-0603-680-1%-100mW-100PPM_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -2335,7 +2335,7 @@
 	)
 	(text_box "NOTE: Pulled low when no fault is present\nPulled up by 12V power fault present"
 		(exclude_from_sim no)
-		(at 167.64 163.83 0)
+		(at 160.02 171.45 0)
 		(size 22.86 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2356,9 +2356,32 @@
 		)
 		(uuid "76e12d0f-7e3e-4cc5-9913-354206cef3da")
 	)
+	(text_box "NOTE: The 1M pulldown resistor here so the Source of the next fault stage (BMS after BSPD for example) goes to 0V, ensuring the output is not floating (which could float to 12V)."
+		(exclude_from_sim no)
+		(at 194.31 118.3606 0)
+		(size 26.67 14.9894)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "bb6bff65-cb64-4a8c-a6dd-82a02beb8e84")
+	)
 	(text_box "NOTE: NMOS being driven  by fault signal is NC: enables LED when fault signal isn't driven low"
 		(exclude_from_sim no)
-		(at 243.84 137.16 0)
+		(at 255.27 144.78 0)
 		(size 19.05 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2381,7 +2404,7 @@
 	)
 	(text_box "NOTE: P-MOSFET w/ gate pulled up to Vcc (Vsource) is NO. Drive gate low to close. Zener protects against excessive Vgs."
 		(exclude_from_sim no)
-		(at 167.64 118.11 0)
+		(at 160.02 118.11 0)
 		(size 30.48 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2403,56 +2426,62 @@
 		(uuid "cfd2b8fe-8c37-4408-a7ac-e878b9650d61")
 	)
 	(junction
-		(at 213.36 160.02)
+		(at 205.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130e5f96-5e79-4839-bc47-246f692613fc")
+	)
+	(junction
+		(at 224.79 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3221b373-19f9-4756-a2b4-3702dc2b54d7")
 	)
 	(junction
-		(at 182.88 140.97)
+		(at 175.26 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f464adc-01a4-4ea9-80b5-011021bc1415")
 	)
 	(junction
-		(at 182.88 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66fd04f6-36a9-459e-875e-7701fb30dd76")
-	)
-	(junction
-		(at 182.88 133.35)
+		(at 175.26 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "972b3b13-7c76-4e5c-985d-778e16b35551")
 	)
 	(junction
-		(at 220.98 129.54)
+		(at 175.26 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae72cb1-7efb-4526-8119-7bbb6d8f943e")
+	)
+	(junction
+		(at 232.41 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8ecfec6-43cb-4984-89b8-a1aba20707f0")
 	)
 	(junction
-		(at 167.64 160.02)
+		(at 160.02 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d34903a0-f133-495a-9aaf-e28fff973718")
 	)
 	(junction
-		(at 220.98 167.64)
+		(at 232.41 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51a5bdd-80e6-440e-92f7-60b532c304eb")
 	)
 	(junction
-		(at 220.98 152.4)
+		(at 232.41 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f99b626d-b0fc-48b6-9968-d4e81c213d0f")
 	)
 	(wire
 		(pts
-			(xy 220.98 167.64) (xy 220.98 171.45)
+			(xy 232.41 175.26) (xy 232.41 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2491,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 220.98 133.35)
+			(xy 175.26 167.64) (xy 209.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110d1f2c-e46c-49c6-93d0-50a975a8d765")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 232.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2511,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 144.78) (xy 167.64 148.59)
+			(xy 205.74 137.16) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccbebcb-d055-4dc7-a11d-fff314c003ed")
+	)
+	(wire
+		(pts
+			(xy 160.02 152.4) (xy 160.02 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 160.02) (xy 205.74 160.02)
+			(xy 224.79 167.64) (xy 217.17 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 160.02) (xy 167.64 160.02)
+			(xy 156.21 167.64) (xy 160.02 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2551,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 148.59) (xy 220.98 152.4)
+			(xy 205.74 148.59) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aefdc11-d461-48ee-8cbc-fdc7b9ea384f")
+	)
+	(wire
+		(pts
+			(xy 232.41 156.21) (xy 232.41 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 190.5 140.97)
+			(xy 175.26 144.78) (xy 182.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 232.41 129.54)
+			(xy 232.41 137.16) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2532,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 152.4) (xy 232.41 152.4)
+			(xy 232.41 160.02) (xy 243.84 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 182.88 148.59)
+			(xy 175.26 144.78) (xy 175.26 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 129.54) (xy 232.41 133.35)
+			(xy 243.84 137.16) (xy 243.84 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2562,17 +2621,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 179.07) (xy 220.98 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f623e5-548b-4917-ae52-073e52486812")
-	)
-	(wire
-		(pts
-			(xy 220.98 125.73) (xy 220.98 129.54)
+			(xy 232.41 133.35) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 156.21) (xy 167.64 160.02)
+			(xy 160.02 163.83) (xy 160.02 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2641,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.35) (xy 198.12 133.35)
+			(xy 205.74 137.16) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef681d9-6659-4a3e-92dd-5b10a0b688e9")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 205.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 160.02) (xy 182.88 160.02)
+			(xy 160.02 167.64) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 156.21) (xy 182.88 160.02)
+			(xy 175.26 160.02) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 133.35) (xy 182.88 133.35)
+			(xy 167.64 137.16) (xy 175.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 160.02) (xy 213.36 167.64)
+			(xy 224.79 167.64) (xy 224.79 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 148.59) (xy 232.41 152.4)
+			(xy 243.84 156.21) (xy 243.84 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2650,19 +2709,9 @@
 		)
 		(uuid "ef28d853-e04d-4811-894b-a9ba9e773693")
 	)
-	(wire
-		(pts
-			(xy 182.88 160.02) (xy 198.12 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1943555-7c9f-49bf-adcf-0b57441760b0")
-	)
 	(hierarchical_label "INPUT"
 		(shape input)
-		(at 175.26 133.35 180)
+		(at 167.64 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2722,7 @@
 	)
 	(hierarchical_label "OUTPUT"
 		(shape output)
-		(at 201.93 133.35 0)
+		(at 213.36 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2733,7 @@
 	)
 	(hierarchical_label "ERROR-SIG"
 		(shape input)
-		(at 163.83 160.02 180)
+		(at 156.21 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2694,8 +2743,8 @@
 		(uuid "f5099f4f-bbc6-406e-9d6d-194c1a933baf")
 	)
 	(symbol
-		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 182.88 156.21 90)
+		(lib_id "power:Earth")
+		(at 205.74 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2703,9 +2752,90 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22241b20-6ed6-412c-b01c-df7bf1375546")
-		(property "Reference" "R40"
-			(at 184.7056 147.6295 90)
+		(uuid "073c85ce-2f55-433f-8cf6-fc56d42eaf47")
+		(property "Reference" "#PWR039"
+			(at 205.74 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 156.845 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 205.74 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d134410f-07fa-40be-aeb7-949e5bd335f7")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-680-1%-100mW-100PPM")
+		(at 232.41 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18c24dea-0348-4ec8-a7c1-d214dcfdee25")
+		(property "Reference" "R38"
+			(at 234.238 139.2623 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2715,8 +2845,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 184.7056 150.1695 90)
+		(property "Value" "680"
+			(at 234.238 141.8023 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2727,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 156.21 0)
+			(at 247.65 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,8 +2868,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 201.93 156.21 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706305705410560-C23228.pdf?response-content-disposition=attachment%3B%20filename%3DC23228.pdf%3B%20filename%2A%3DUTF-8%27%27C23228.pdf&x-oss-date=20260511T032626Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ncIsLklbBqwrPZMHT7lWcRXfhHi6%2FIpzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeVVg0lI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhpm01x51tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIjH1f5qKWD5sagAE%2FsBzGxivqT%2BqLPxLY9CGaz8nYidyCgER0E6y4YsAjkWmSIIBpWWiarYQoKBusdEAfnQ6WDJTWeNg7bea86y8yr0awjHs8yyd0qcBq57v36PAbX1o%2BsxYXXN9H2uI1huPNImGyoAMeJILJWmvBS3BlqMenKq%2BDHi2hPkX%2FrPOSXSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZiixPxoKuq22RJqgDQwkdjcE%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=adfe51cdec23501e415b966cfbc717ceb2a1bba8921bcec299f87ad629fcf4f5"
+			(at 251.46 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,8 +2880,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 205.74 156.21 0)
+		(property "Description" "680Ω 0603 JLCPCB Basic Resistor"
+			(at 255.27 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2893,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 184.7056 152.7095 90)
+			(at 234.238 144.3423 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2774,7 +2904,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 184.7056 155.2495 90)
+			(at 234.238 146.8823 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2785,7 +2915,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 184.7056 157.7895 90)
+			(at 234.238 149.4223 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2795,8 +2925,8 @@
 				(justify right)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 220.98 156.21 0)
+		(property "Link" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
+			(at 270.51 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2808,7 +2938,200 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 224.79 156.21 0)
+			(at 274.32 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF6800T5E"
+			(at 278.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "311-680GRCT-ND"
+			(at 281.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-07680RL"
+			(at 285.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C23228"
+			(at 289.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "60857bf9-8ce0-4e9d-8b40-f0f7c6fed3f1")
+		)
+		(pin "2"
+			(uuid "445548fb-876f-42c0-82f7-5ba0b1b08234")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
+		(at 175.26 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22241b20-6ed6-412c-b01c-df7bf1375546")
+		(property "Reference" "R40"
+			(at 177.0856 151.4395 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 177.0856 153.9795 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.5 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
+			(at 194.31 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
+			(at 198.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 177.0856 156.5195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 177.0856 159.0595 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 177.0856 161.5995 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
+			(at 213.36 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 217.17 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +3143,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 228.6 156.21 0)
+			(at 220.98 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,7 +3155,7 @@
 			)
 		)
 		(property "Digikey P/N" "RG16P100KBCT-ND"
-			(at 232.41 156.21 0)
+			(at 224.79 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,7 +3167,7 @@
 			)
 		)
 		(property "Mouser P/N" "754-RG1608P-104-B-T5"
-			(at 236.22 156.21 0)
+			(at 228.6 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,7 +3179,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25803"
-			(at 240.03 156.21 0)
+			(at 232.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2887,361 +3210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "-R-SMD-0603:R-0603-51-1%-100mW-100PPM")
-		(at 220.98 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "35437410-6132-46d5-9282-a7d6bf95b4dd")
-		(property "Reference" "R42"
-			(at 222.8921 170.8631 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "51"
-			(at 222.8921 173.4031 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.22 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706384138620928"
-			(at 240.03 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "51Ω 0603 JLCPCB Basic Resistor"
-			(at 243.84 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 222.8921 175.9431 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 222.8921 178.4831 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 222.8921 181.0231 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/23924-0603WAF510JT5E/C23197"
-			(at 259.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 262.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF510JT5E"
-			(at 266.7 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RMCF0603FT51R0CT-ND"
-			(at 270.51 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "708-RMCF0603FT51R0"
-			(at 274.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C23197"
-			(at 278.13 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "8e48c4c7-455d-4a45-8332-4c25bf9e0e5b")
-		)
-		(pin "1"
-			(uuid "486344fe-0623-4a1d-a6af-14b89cd1f9b7")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "R42")
-					(unit 1)
-				)
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-Diodes-LED:NCD0805R1")
-		(at 232.41 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b12e89c-08aa-40f7-b602-35220839f760")
-		(property "Reference" "D23"
-			(at 235.5885 145.2833 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Red"
-			(at 235.5885 147.8233 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 217.17 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 213.36 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 209.55 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 205.74 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 201.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "NCD0805R1"
-			(at 198.12 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "350-2039-1-ND"
-			(at 194.31 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "645-598-8120-107F"
-			(at 190.5 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C84256"
-			(at 186.69 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "8da793e3-951e-4c43-9afa-ab402bb083da")
-		)
-		(pin "1"
-			(uuid "756c6bf0-9c94-4ebd-85c0-0b055e4ea2c5")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-MOSFET-N-Channel:SI2318CDS-T1-GE3")
-		(at 213.36 160.02 0)
+		(at 224.79 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3251,7 +3221,7 @@
 		(dnp no)
 		(uuid "504ede45-bec0-44c8-8d00-dfd20b4bfcc2")
 		(property "Reference" "Q13"
-			(at 223.7186 158.8164 0)
+			(at 235.1486 166.4364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3262,7 +3232,7 @@
 			)
 		)
 		(property "Value" "SI2318CDS-T1-GE3"
-			(at 223.7186 161.3564 0)
+			(at 235.1486 168.9764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3273,7 +3243,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 213.36 186.69 0)
+			(at 224.79 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/67030/si2318cds.pdf"
-			(at 213.36 190.5 0)
+			(at 224.79 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3267,7 @@
 			)
 		)
 		(property "Description" "N-Channel 40 V 5.6A (Tc) 1.25W (Ta), 2.1W (Tc) Surface Mount SOT-23-3 (TO-236)"
-			(at 213.36 194.31 0)
+			(at 224.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3279,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/vishay-siliconix/SI2318CDS-T1-GE3/3748954?s=N4IgTCBcDaIMoEkwGYCMAOAwgETgWgBVU8BxAUWUwLwDlsQBdAXyA"
-			(at 213.36 198.12 0)
+			(at 224.79 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3291,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 213.36 201.93 0)
+			(at 224.79 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3303,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "SI2318CDS-T1-GE3"
-			(at 213.36 205.74 0)
+			(at 224.79 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3315,7 @@
 			)
 		)
 		(property "Digikey P/N" "SI2318CDS-T1-GE3CT-ND"
-			(at 213.36 209.55 0)
+			(at 224.79 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3327,7 @@
 			)
 		)
 		(property "Mouser P/N" "781-SI2318CDS-T1-GE3"
-			(at 213.36 213.36 0)
+			(at 224.79 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3339,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14498"
-			(at 213.36 217.17 0)
+			(at 224.79 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,7 +3374,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 220.98 182.88 0)
+		(at 232.41 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3413,8 +3383,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5aace4c7-3ea0-4ac9-b1fc-afbc332f1ddf")
-		(property "Reference" "#PWR044"
-			(at 220.98 189.23 0)
+		(property "Reference" "#PWR040"
+			(at 232.41 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,7 +3395,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 187.325 0)
+			(at 232.41 183.515 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3435,7 +3405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 182.88 0)
+			(at 232.41 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,7 +3416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 182.88 0)
+			(at 232.41 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 220.98 182.88 0)
+			(at 232.41 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,204 +3443,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
 					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-R-SMD-0603:R-0603-510-1%-100mW-100PPM")
-		(at 220.98 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c6cdcc3-74e4-4ef9-b7f7-cb14d0961ae7")
-		(property "Reference" "R37"
-			(at 222.588 131.7328 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "510"
-			(at 222.588 134.2728 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.22 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706285526474752"
-			(at 240.03 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "510Ω 0603 JLCPCB Basic Resistor"
-			(at 243.84 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 222.588 136.8128 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 222.588 139.3528 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 222.588 141.8928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/23920-0603WAF5100T5E/C23193"
-			(at 259.08 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 262.89 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF5100T5E"
-			(at 266.7 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RR08P510DCT-ND"
-			(at 270.51 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "754-RR0816P-511D"
-			(at 274.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C23193"
-			(at 278.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "0750328e-c81d-43b4-a2e0-3a37e491a35b")
-		)
-		(pin "1"
-			(uuid "ff007dd0-218f-4d67-8fde-eb0ea7c687ae")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3678,7 +3455,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 198.12 160.02 0)
+		(at 209.55 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3687,8 +3464,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78013285-4817-4cd7-9fbf-d7cf8ced4e59")
-		(property "Reference" "R41"
-			(at 201.804 162.8047 0)
+		(property "Reference" "R42"
+			(at 213.234 170.4247 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3698,7 +3475,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 201.804 165.3447 0)
+			(at 213.234 172.9647 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3708,7 +3485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 175.26 0)
+			(at 209.55 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3497,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 198.12 179.07 0)
+			(at 209.55 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3509,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 198.12 182.88 0)
+			(at 209.55 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +3521,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 201.804 167.8847 0)
+			(at 213.234 175.5047 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3754,7 +3531,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 201.804 170.4247 0)
+			(at 213.234 178.0447 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3764,7 +3541,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 201.804 172.9647 0)
+			(at 213.234 180.5847 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3774,7 +3551,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 198.12 198.12 0)
+			(at 209.55 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3786,7 +3563,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 198.12 201.93 0)
+			(at 209.55 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3575,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 198.12 205.74 0)
+			(at 209.55 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3587,7 @@
 			)
 		)
 		(property "Digikey P/N" "RG16P100KBCT-ND"
-			(at 198.12 209.55 0)
+			(at 209.55 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3822,7 +3599,7 @@
 			)
 		)
 		(property "Mouser P/N" "754-RG1608P-104-B-T5"
-			(at 198.12 213.36 0)
+			(at 209.55 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3611,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25803"
-			(at 198.12 217.17 0)
+			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,204 +3631,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-R-SMD-0603:R-0603-510-1%-100mW-100PPM")
-		(at 232.41 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89f972fb-a6b3-4931-8c71-dc332446815e")
-		(property "Reference" "R38"
-			(at 234.018 131.7328 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "510"
-			(at 234.018 134.2728 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 247.65 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706285526474752"
-			(at 251.46 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "510Ω 0603 JLCPCB Basic Resistor"
-			(at 255.27 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 234.018 136.8128 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 234.018 139.3528 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 234.018 141.8928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/23920-0603WAF5100T5E/C23193"
-			(at 270.51 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 274.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF5100T5E"
-			(at 278.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "RR08P510DCT-ND"
-			(at 281.94 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "754-RR0816P-511D"
-			(at 285.75 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C23193"
-			(at 289.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "3c3ff762-86f9-4bd7-bb27-99dedb8ea44e")
-		)
-		(pin "1"
-			(uuid "8833e4c6-b672-4cf0-a5c0-db88b587393a")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "R44")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4059,7 +3643,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 167.64 156.21 90)
+		(at 160.02 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4068,8 +3652,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "915219a8-ce44-4839-975d-1fe6d6b1fe49")
-		(property "Reference" "R39"
-			(at 169.4656 147.6295 90)
+		(property "Reference" "R41"
+			(at 161.8456 155.2495 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4080,7 +3664,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 169.4656 150.1695 90)
+			(at 161.8456 157.7895 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4091,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.88 156.21 0)
+			(at 175.26 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 186.69 156.21 0)
+			(at 179.07 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +3699,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 190.5 156.21 0)
+			(at 182.88 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +3711,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 169.4656 152.7095 90)
+			(at 161.8456 160.3295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4138,7 +3722,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 169.4656 155.2495 90)
+			(at 161.8456 162.8695 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4149,7 +3733,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 169.4656 157.7895 90)
+			(at 161.8456 165.4095 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4160,7 +3744,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 205.74 156.21 0)
+			(at 198.12 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,7 +3756,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 209.55 156.21 0)
+			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,7 +3768,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 213.36 156.21 0)
+			(at 205.74 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +3780,7 @@
 			)
 		)
 		(property "Digikey P/N" "RG16P100KBCT-ND"
-			(at 217.17 156.21 0)
+			(at 209.55 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,7 +3792,7 @@
 			)
 		)
 		(property "Mouser P/N" "754-RG1608P-104-B-T5"
-			(at 220.98 156.21 0)
+			(at 213.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4220,7 +3804,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25803"
-			(at 224.79 156.21 0)
+			(at 217.17 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,6 +3824,199 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-680-1%-100mW-100PPM")
+		(at 243.84 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9df12b1a-5aab-43ad-9c3d-bc3a8e146391")
+		(property "Reference" "R39"
+			(at 245.668 139.2623 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "680"
+			(at 245.668 141.8023 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706305705410560-C23228.pdf?response-content-disposition=attachment%3B%20filename%3DC23228.pdf%3B%20filename%2A%3DUTF-8%27%27C23228.pdf&x-oss-date=20260511T032626Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ncIsLklbBqwrPZMHT7lWcRXfhHi6%2FIpzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeVVg0lI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhpm01x51tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIjH1f5qKWD5sagAE%2FsBzGxivqT%2BqLPxLY9CGaz8nYidyCgER0E6y4YsAjkWmSIIBpWWiarYQoKBusdEAfnQ6WDJTWeNg7bea86y8yr0awjHs8yyd0qcBq57v36PAbX1o%2BsxYXXN9H2uI1huPNImGyoAMeJILJWmvBS3BlqMenKq%2BDHi2hPkX%2FrPOSXSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZiixPxoKuq22RJqgDQwkdjcE%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=adfe51cdec23501e415b966cfbc717ceb2a1bba8921bcec299f87ad629fcf4f5"
+			(at 262.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "680Ω 0603 JLCPCB Basic Resistor"
+			(at 266.7 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 245.668 144.3423 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 245.668 146.8823 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 245.668 149.4223 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
+			(at 281.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 285.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF6800T5E"
+			(at 289.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "311-680GRCT-ND"
+			(at 293.37 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-07680RL"
+			(at 297.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C23228"
+			(at 300.99 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "cda8cbca-177c-4f24-8153-67f7fb3e5b1c")
+		)
+		(pin "2"
+			(uuid "deb14216-8e64-45df-8574-8b479755e4b1")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
 					(reference "R39")
 					(unit 1)
 				)
@@ -4251,8 +4028,361 @@
 		)
 	)
 	(symbol
+		(lib_id "-R-SMD-0603:R-0603-1M-1%-100mW-100PPM")
+		(at 205.74 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5800986-9192-422a-b09d-7e143a96fb0d")
+		(property "Reference" "R37"
+			(at 207.3922 140.119 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 207.3922 142.659 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 220.98 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706152755920896"
+			(at 224.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "1MΩ 0603 JLCPCB Basic Resistor"
+			(at 228.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 207.3922 145.199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 207.3922 147.739 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 207.3922 150.279 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935"
+			(at 243.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF1004T5E"
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "YAG4498CT-ND"
+			(at 255.27 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "603-RT0603BRD071ML"
+			(at 259.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C22935"
+			(at 262.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4c126894-0fc1-4577-bf50-c9672ad4c6d3")
+		)
+		(pin "2"
+			(uuid "e1c8f29e-aefd-44c1-91f8-b83abe8e3b05")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Diodes-LED:NCD0805R1")
+		(at 232.41 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb64b860-2379-4bd5-a997-d50c210380ce")
+		(property "Reference" "D27"
+			(at 235.507 154.0417 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 235.507 156.5817 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 217.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
+			(at 213.36 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Red LED, SMD 0805, Vf 1.6-2.6 V, Iv 195 mcd @ 25 mA"
+			(at 209.55 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 205.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer P/N" "NCD0805R1"
+			(at 198.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "160-1427-1-ND"
+			(at 194.31 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "859-LTST-C171KRKT"
+			(at 190.5 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C84256"
+			(at 186.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "762e9cdf-6b0b-4af3-879b-6886848d52e5")
+		)
+		(pin "1"
+			(uuid "bd6c291a-458e-41dd-9959-9b28cd06c4d2")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Diodes-Zener:BZT52C16")
-		(at 182.88 140.97 90)
+		(at 175.26 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4261,8 +4391,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce703733-5fe2-4e7a-ac44-07ea9e9cf8cc")
-		(property "Reference" "D21"
-			(at 182.784 128.0941 90)
+		(property "Reference" "D26"
+			(at 175.164 131.9041 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4272,7 +4402,7 @@
 			)
 		)
 		(property "Value" "BZT52C16"
-			(at 182.784 130.6341 90)
+			(at 175.164 134.4441 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4282,7 +4412,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 198.12 140.97 0)
+			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4424,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
-			(at 201.93 140.97 0)
+			(at 194.31 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4436,7 @@
 			)
 		)
 		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
-			(at 205.74 140.97 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4448,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
-			(at 209.55 140.97 0)
+			(at 201.93 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +4460,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec"
-			(at 213.36 140.97 0)
+			(at 205.74 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4472,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "BZT52C16"
-			(at 217.17 140.97 0)
+			(at 209.55 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4484,7 @@
 			)
 		)
 		(property "Digikey P/N" "4878-BZT52C16CT-ND"
-			(at 220.98 140.97 0)
+			(at 213.36 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +4496,7 @@
 			)
 		)
 		(property "Mouser P/N" "637-BZT52C16"
-			(at 224.79 140.97 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4508,7 @@
 			)
 		)
 		(property "LCSC P/N" "C2105"
-			(at 228.6 140.97 0)
+			(at 220.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,11 +4528,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "D21")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "D25")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -4410,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-Zener:BZT52C16")
-		(at 220.98 167.64 180)
+		(at 232.41 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4419,28 +4549,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1110e32-b0ff-4c87-ab14-a3ef47096409")
-		(property "Reference" "D24"
-			(at 213.0765 169.2859 0)
+		(property "Reference" "D29"
+			(at 233.68 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "BZT52C16"
-			(at 213.0765 171.8259 0)
+			(at 233.68 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 220.98 152.4 0)
+			(at 232.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4584,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/bzt52c2v4.pdf"
-			(at 220.98 148.59 0)
+			(at 232.41 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4596,7 @@
 			)
 		)
 		(property "Description" "Zener Diode 16 V 500 mW ±5% Surface Mount SOD-123F"
-			(at 220.98 144.78 0)
+			(at 232.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4608,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BZT52C16/22192605?s=N4IgTCBcDaICwA4DsCC0AhAWgFQKxgGEBGANgO1QDkAREAXQF8g"
-			(at 220.98 140.97 0)
+			(at 232.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4620,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec"
-			(at 220.98 137.16 0)
+			(at 232.41 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,7 +4632,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "BZT52C16"
-			(at 220.98 133.35 0)
+			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4644,7 @@
 			)
 		)
 		(property "Digikey P/N" "4878-BZT52C16CT-ND"
-			(at 220.98 129.54 0)
+			(at 232.41 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4656,7 @@
 			)
 		)
 		(property "Mouser P/N" "637-BZT52C16"
-			(at 220.98 125.73 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +4668,7 @@
 			)
 		)
 		(property "LCSC P/N" "C2105"
-			(at 220.98 121.92 0)
+			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,11 +4688,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "D24")
+					(reference "D29")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "D28")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4568,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "-Diodes-LED:NCD0805R1")
-		(at 220.98 140.97 270)
+		(at 243.84 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4576,9 +4708,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "de59eb70-35b6-498c-9e00-8c05ab55f325")
-		(property "Reference" "D22"
-			(at 224.1585 145.2833 90)
+		(uuid "e4b013e5-7c5a-4c90-a5ed-592c0b9621b9")
+		(property "Reference" "D28"
+			(at 246.937 154.0417 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4589,7 +4721,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 224.1585 147.8233 90)
+			(at 246.937 156.5817 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4600,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 205.74 140.97 0)
+			(at 228.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
-			(at 201.93 140.97 0)
+			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,8 +4755,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Red LED, SMD 0805, 615-630 nm, Vf 1.6-2.6 V"
-			(at 198.12 140.97 0)
+		(property "Description" "Red LED, SMD 0805, Vf 1.6-2.6 V, Iv 195 mcd @ 25 mA"
+			(at 220.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +4768,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 194.31 140.97 0)
+			(at 217.17 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4780,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 190.5 140.97 0)
+			(at 213.36 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +4792,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NCD0805R1"
-			(at 186.69 140.97 0)
+			(at 209.55 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4671,8 +4803,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Digikey P/N" "350-2039-1-ND"
-			(at 182.88 140.97 0)
+		(property "Digikey P/N" "160-1427-1-ND"
+			(at 205.74 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,8 +4815,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser P/N" "645-598-8120-107F"
-			(at 179.07 140.97 0)
+		(property "Mouser P/N" "859-LTST-C171KRKT"
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4828,7 @@
 			)
 		)
 		(property "LCSC P/N" "C84256"
-			(at 175.26 140.97 0)
+			(at 198.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,19 +4840,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "830ddab9-ac0a-4868-a744-f3b4351e8a69")
+			(uuid "0362c931-b0d9-46fe-942c-a1ea96f6fe6e")
 		)
 		(pin "1"
-			(uuid "2bba715b-ee60-422b-ac06-bbb11dbd783c")
+			(uuid "d6c33bb1-e643-40da-a8d4-7d76e13fa37c")
 		)
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "D22")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "D26")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4860,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 220.98 125.73 0)
+		(at 232.41 133.35 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4738,8 +4870,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e531160e-c30e-4af6-83f1-ee694813092b")
-		(property "Reference" "#PWR042"
-			(at 220.98 129.54 0)
+		(property "Reference" "#PWR037"
+			(at 232.41 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +4882,7 @@
 			)
 		)
 		(property "Value" "BATT+PROT"
-			(at 220.98 121.285 0)
+			(at 232.41 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,7 +4892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 125.73 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 125.73 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 220.98 125.73 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,11 +4930,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4810,7 +4942,7 @@
 	)
 	(symbol
 		(lib_id "-MOSFET-P-Channel:SI2347DS-T1-GE3")
-		(at 190.5 140.97 270)
+		(at 182.88 144.78 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4821,7 +4953,7 @@
 		(dnp no)
 		(uuid "e63f55c4-9863-4401-9d0a-8f5a1deeb3de")
 		(property "Reference" "Q12"
-			(at 194.0254 135.4086 90)
+			(at 184.0405 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4832,7 +4964,7 @@
 			)
 		)
 		(property "Value" "SI2347DS-T1-GE3"
-			(at 194.0254 137.9486 90)
+			(at 184.0405 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4843,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 163.83 140.97 0)
+			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +4987,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 160.02 140.97 0)
+			(at 152.4 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,7 +4999,7 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 5A (Tc) 1.7W (Tc) Surface Mount SOT-23-3 (TO-236)"
-			(at 156.21 140.97 0)
+			(at 148.59 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +5011,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/vishay-siliconix/SI2347DS-T1-GE3/4496222?s=N4IgTCBcDaIMoEkwGYAsB2AInAtAFQEYcBxAUWQGE8cA5TEAXQF8g"
-			(at 152.4 140.97 0)
+			(at 144.78 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +5023,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 148.59 140.97 0)
+			(at 140.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +5035,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "SI2347DS-T1-GE3"
-			(at 144.78 140.97 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +5047,7 @@
 			)
 		)
 		(property "Digikey P/N" "SI2347DS-T1-GE3CT-ND"
-			(at 140.97 140.97 0)
+			(at 133.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +5059,7 @@
 			)
 		)
 		(property "Mouser P/N" "78-SI2347DS-T1-GE3"
-			(at 137.16 140.97 0)
+			(at 129.54 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4939,7 +5071,7 @@
 			)
 		)
 		(property "LCSC P/N" "C145002"
-			(at 133.35 140.97 0)
+			(at 125.73 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +5106,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 167.64 144.78 0)
+		(at 160.02 152.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4984,8 +5116,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6d9d3f9-721b-4cb0-8bc9-d646e12dcbc6")
-		(property "Reference" "#PWR043"
-			(at 167.64 148.59 0)
+		(property "Reference" "#PWR038"
+			(at 160.02 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +5128,7 @@
 			)
 		)
 		(property "Value" "BATT+PROT"
-			(at 167.64 140.335 0)
+			(at 160.02 147.955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5006,7 +5138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 144.78 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +5149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 144.78 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5028,7 +5160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 167.64 144.78 0)
+			(at 160.02 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,11 +5176,11 @@
 		(instances
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/2f9ac893-2047-438f-af87-5654fc0cb14f"
-					(reference "#PWR043")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/5fbdbc4a-acfc-4802-ab24-0d194c32f3aa"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
