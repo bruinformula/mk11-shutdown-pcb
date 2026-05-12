@@ -2358,8 +2358,8 @@
 	)
 	(text_box "NOTE: The 1M pulldown resistor here so the Source of the next fault stage (BMS after BSPD for example) goes to 0V, ensuring the output is not floating (which could float to 12V)."
 		(exclude_from_sim no)
-		(at 194.31 118.3606 0)
-		(size 26.67 14.9894)
+		(at 194.31 118.11 0)
+		(size 26.67 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

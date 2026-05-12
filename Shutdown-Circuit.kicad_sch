@@ -1983,7 +1983,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "-R-SMD-0603:R-0603-20k-1%-100mW-100PPM"
+		(symbol "-R-SMD-0603:R-0603-13k-1%-100mW-100PPM"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2006,7 +2006,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "20k"
+			(property "Value" "13k"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2029,7 +2029,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706075484393472-C4184.pdf?response-content-disposition=attachment%3B%20filename%3DC4184.pdf%3B%20filename%2A%3DUTF-8%27%27C4184.pdf&x-oss-date=20260511T044514Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ncIs%2Fi37ZMzqG5Tkjmp2gzfOthmfbY0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZJ3tE9I4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrEdYxqNAPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIOPsxB6KWD5sagAF5AaITRWxqNF%2BJS03uCrremVb7D4PCL39APUFOpQ20vfg5hA1S%2BgbIb4Mxy5Tha71QJu9MCJoYnXkctKSgZhmS2uNFJ0Fc7MSK9gKKsSCCXwul3m92XnAdQIzGKfI5ZnKjr9AcySIQk%2B0yTfO%2FhQ62qITNub8M0iPZh9gKqbu%2FOyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZiiuV2imycRLnWChfpdMv3s1%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf3131eb6d07913373d596088618ece5639e14d58e412296ff075d90d70346a3"
+			(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706122603204608-C22797.pdf?response-content-disposition=attachment%3B%20filename%3DC22797.pdf%3B%20filename%2A%3DUTF-8%27%27C22797.pdf&x-oss-date=20260511T112728Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vvD%2BjFi7ZnhKyGZ3T0oXkxXMtijr%2Flgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbQ42FtI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqi2vM2EnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkI%2BqAH1KKWD5sagAEVBUzsXu6MNjFU0klBfNVk4fvOD8tq07MMEUxq1KdRqgpQ0t0b8LPxD9jz0xhK1JlaS1Av0UgrXgsL6GZI5be8cAJ9Nyd7BmfQJMQiB7L2tWAS5EnNinjGd2YE9tL6ETh6yj%2FpCnnylA1ICCMEtMzwsB6wqmnd7ZIpWN8XnCDmlSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXZDRqfiF3nmeREEydPDNazNa%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=8829c34f7117d77e8788326e0e77e364b6d5b9dd755ea6fb278faca0b110d5d0"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2041,7 +2041,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "20kΩ 0603 JLCPCB Basic Resistor"
+			(property "Description" "13kΩ 0603 JLCPCB Basic Resistor"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2086,7 +2086,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Link" "https://jlcpcb.com/partdetail/4591-0603WAF2002T5E/C4184"
+			(property "Link" "https://jlcpcb.com/partdetail/23524-0603WAF1302T5E/C22797"
 				(at 0 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2110,7 +2110,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer P/N" "0603WAF2002T5E"
+			(property "Manufacturer P/N" "0603WAF1302T5E"
 				(at 0 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2122,7 +2122,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Digikey P/N" "311-20.0KHRCT-ND"
+			(property "Digikey P/N" "RMCF0603FT13K0CT-ND"
 				(at 0 -49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2134,7 +2134,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser P/N" "603-RC0603FR-0720KL"
+			(property "Mouser P/N" "708-RMCF0603FT13K0"
 				(at 0 -53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2146,7 +2146,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC P/N" "C4184"
+			(property "LCSC P/N" "C22797"
 				(at 0 -57.15 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2158,7 +2158,7 @@
 					(justify left bottom)
 				)
 			)
-			(symbol "R-0603-20k-1%-100mW-100PPM_0_1"
+			(symbol "R-0603-13k-1%-100mW-100PPM_0_1"
 				(polyline
 					(pts
 						(xy 1.524 0) (xy 1.27 0)
@@ -2220,7 +2220,7 @@
 					)
 				)
 			)
-			(symbol "R-0603-20k-1%-100mW-100PPM_1_1"
+			(symbol "R-0603-13k-1%-100mW-100PPM_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -3179,7 +3179,7 @@
 		)
 		(uuid "0cb98b09-9f5e-4f9f-b535-3c08f19d0739")
 	)
-	(text_box "NOTE: LED indicates AIR deactivation due to inactive HVIL"
+	(text_box "NOTE: LED indicates AIR deactivation due to inactive HVILs"
 		(exclude_from_sim no)
 		(at 76.2 167.64 0)
 		(size 19.05 7.62)
@@ -5004,8 +5004,7 @@
 	)
 	(symbol
 		(lib_id "-R-SMD-0603:R-0603-100k-1%-100mW-100PPM")
-		(at 266.7 160.02 270)
-		(mirror x)
+		(at 266.7 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5015,7 +5014,7 @@
 		(dnp no)
 		(uuid "1af65a54-9294-4e8e-8de2-cbd3c2b80fd1")
 		(property "Reference" "R63"
-			(at 264.9549 151.468 90)
+			(at 268.4451 151.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5026,7 +5025,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 264.9549 154.008 90)
+			(at 268.4451 154.008 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5037,7 +5036,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 251.46 160.02 0)
+			(at 281.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5049,7 +5048,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 247.65 160.02 0)
+			(at 285.75 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5060,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0603 JLCPCB Basic Resistor"
-			(at 243.84 160.02 0)
+			(at 289.56 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,7 +5072,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 264.9549 156.548 90)
+			(at 268.4451 156.548 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5084,7 +5083,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 264.9549 159.088 90)
+			(at 268.4451 159.088 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5095,7 +5094,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 264.9549 161.628 90)
+			(at 268.4451 161.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5106,7 +5105,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
-			(at 228.6 160.02 0)
+			(at 304.8 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +5117,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 224.79 160.02 0)
+			(at 308.61 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5129,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0603WAF1003T5E"
-			(at 220.98 160.02 0)
+			(at 312.42 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,7 +5141,7 @@
 			)
 		)
 		(property "Digikey P/N" "RG16P100KBCT-ND"
-			(at 217.17 160.02 0)
+			(at 316.23 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5153,7 @@
 			)
 		)
 		(property "Mouser P/N" "754-RG1608P-104-B-T5"
-			(at 213.36 160.02 0)
+			(at 320.04 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5166,7 +5165,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25803"
-			(at 209.55 160.02 0)
+			(at 323.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12626,6 +12625,196 @@
 		)
 	)
 	(symbol
+		(lib_id "-R-SMD-0603:R-0603-13k-1%-100mW-100PPM")
+		(at 83.82 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d967b5e4-3776-432f-96fb-77a191a6f8a5")
+		(property "Reference" "R60"
+			(at 81.915 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13k"
+			(at 81.915 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 68.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706122603204608-C22797.pdf?response-content-disposition=attachment%3B%20filename%3DC22797.pdf%3B%20filename%2A%3DUTF-8%27%27C22797.pdf&x-oss-date=20260511T112728Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vvD%2BjFi7ZnhKyGZ3T0oXkxXMtijr%2Flgzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbQ42FtI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqi2vM2EnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkI%2BqAH1KKWD5sagAEVBUzsXu6MNjFU0klBfNVk4fvOD8tq07MMEUxq1KdRqgpQ0t0b8LPxD9jz0xhK1JlaS1Av0UgrXgsL6GZI5be8cAJ9Nyd7BmfQJMQiB7L2tWAS5EnNinjGd2YE9tL6ETh6yj%2FpCnnylA1ICCMEtMzwsB6wqmnd7ZIpWN8XnCDmlSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXZDRqfiF3nmeREEydPDNazNa%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=8829c34f7117d77e8788326e0e77e364b6d5b9dd755ea6fb278faca0b110d5d0"
+			(at 64.77 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "13kΩ 0603 JLCPCB Basic Resistor"
+			(at 60.96 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 81.915 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 81.915 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 81.915 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/23524-0603WAF1302T5E/C22797"
+			(at 45.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 41.91 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF1302T5E"
+			(at 38.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT13K0CT-ND"
+			(at 34.29 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT13K0"
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC P/N" "C22797"
+			(at 26.67 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "280802d3-23cf-4f5f-bbb4-4b2719dcdcfe")
+		)
+		(pin "1"
+			(uuid "67bc3136-f6b8-4f57-ae46-584721c7934f")
+		)
+		(instances
+			(project "Shutdown"
+				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/3b4e2b7a-b875-4df2-afb4-7cd15d570973"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Diodes-LED:NCD0805R1")
 		(at 160.02 167.64 270)
 		(unit 1)
@@ -13203,195 +13392,6 @@
 			(project "Shutdown"
 				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/3b4e2b7a-b875-4df2-afb4-7cd15d570973"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-R-SMD-0603:R-0603-20k-1%-100mW-100PPM")
-		(at 83.82 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7a3fb13-74cc-4e75-80d0-326fdd1fc198")
-		(property "Reference" "R60"
-			(at 81.915 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 81.915 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 99.06 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706075484393472-C4184.pdf?response-content-disposition=attachment%3B%20filename%3DC4184.pdf%3B%20filename%2A%3DUTF-8%27%27C4184.pdf&x-oss-date=20260511T044514Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ncIs%2Fi37ZMzqG5Tkjmp2gzfOthmfbY0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZJ3tE9I4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrEdYxqNAPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIOPsxB6KWD5sagAF5AaITRWxqNF%2BJS03uCrremVb7D4PCL39APUFOpQ20vfg5hA1S%2BgbIb4Mxy5Tha71QJu9MCJoYnXkctKSgZhmS2uNFJ0Fc7MSK9gKKsSCCXwul3m92XnAdQIzGKfI5ZnKjr9AcySIQk%2B0yTfO%2FhQ62qITNub8M0iPZh9gKqbu%2FOyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZiiuV2imycRLnWChfpdMv3s1%2F20260511%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf3131eb6d07913373d596088618ece5639e14d58e412296ff075d90d70346a3"
-			(at 102.87 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "20kΩ 0603 JLCPCB Basic Resistor"
-			(at 106.68 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 81.915 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 81.915 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 81.915 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/4591-0603WAF2002T5E/C4184"
-			(at 121.92 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 125.73 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF2002T5E"
-			(at 129.54 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digikey P/N" "311-20.0KHRCT-ND"
-			(at 133.35 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser P/N" "603-RC0603FR-0720KL"
-			(at 137.16 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC P/N" "C4184"
-			(at 140.97 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "aa58a31e-d626-41b7-a879-35a780e2219e")
-		)
-		(pin "2"
-			(uuid "75b63f67-c5f6-42f9-bcd2-4b6885c82060")
-		)
-		(instances
-			(project "Shutdown"
-				(path "/624b8e71-6fec-49ba-b7c9-b659e140fc2f/3b4e2b7a-b875-4df2-afb4-7cd15d570973"
-					(reference "R60")
 					(unit 1)
 				)
 			)

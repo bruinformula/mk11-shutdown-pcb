@@ -4225,7 +4225,7 @@
 	)
 	(text_box "NOTE: P-MOSFET w/ gate pulled up to Vcc (Vsource) is NO. Drive gate low to close. Zener protects against excessive Vgs."
 		(exclude_from_sim no)
-		(at 242.57 114.3 0)
+		(at 243.84 114.3 0)
 		(size 30.48 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -12909,7 +12909,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "eb884c50-774a-43cb-a8ac-a9ebf055fe91")
 		(property "Reference" "R1"
 			(at 72.4448 52.0334 0)
@@ -13785,16 +13785,6 @@
 				(justify left)
 			)
 		)
-		(pin "BMS-FAULT-VCU" input
-			(at 125.73 60.96 180)
-			(uuid "0a669f27-c45a-4aa3-a32c-cf3ed7ad20fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TSSI-STATUS" output
 			(at 148.59 57.15 0)
 			(uuid "c7c9430f-660c-420a-b698-ee21d3f5b10a")
@@ -13803,6 +13793,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BMS-FAULT" input
+			(at 125.73 60.96 180)
+			(uuid "d1089b82-0b81-40f8-b3b0-10fd09550131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
